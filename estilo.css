@@ -1,0 +1,173 @@
+/* --------------------------- GERAL --------------------------- */
+body {margin: 0; position:relative;}
+/* ------------------------------------------------------------------------ */
+
+/* --------------------------- TIPOGRAFIA GERAL --------------------------- */
+h1, h2, h3, h4, h5, h6 {color: #008080; font-weight: 700;}
+h2 {font-size:2em;}
+.titulo-section {color: white;}
+.titulo-section2 {color: #008080;}
+.titulo-rodape{color: white; color: white; border-bottom: solid 2px #008080; padding: 5px 11px 13px;}
+/* ------------------------------------------------------------------- */
+
+/* -------------------------- HEADER E MENU -------------------------- */
+header {display: block; margin-bottom: 62px;}
+nav {background: #fff; padding: 0 0; box-shadow: 0 4px 8px rgba(0,0,0,.08)}
+.navbar{padding: 10px 0}
+.navbar-brand{padding: 0 0}
+.navbar-brand-mooc{color: #000; border-bottom: 3px solid #2b999a; padding: 2px 10px 5px;text-transform: uppercase;font-weight: 700;}
+.navbar-brand-mooc:hover{color: #000; text-decoration: none}
+.navbar-brand img {max-width: 170px;}
+a.navbar-brand {color: rgba(0,0,0,.9); margin-right: 0; font-size: 1em; font-weight: bold;}
+a.nav-link {color: rgba(0,0,0,.9); text-align: center}
+nav .nav-item a.nav-link {color: rgba(0,0,0,.9); display: block; text-transform: uppercase;margin-right: 2px;}
+nav .nav-item a.nav-link.entrar {background: #0c797a; color: white; padding-right: 2em;padding-left: 2em;}
+nav .nav-item a.nav-link.entrar:hover {background: #333b42; color: white;}
+nav .nav-item a.nav-link:hover {display: block; text-transform: uppercase; background: #fff; color: rgba(13,121,121,1);}
+.navbar-toggler {padding: .25rem 0;}
+.navbar-toggler-icon {background: url(images/hamburg.svg) no-repeat; height: 25px;}
+/* --------------------------------------------------------------- */
+
+/* -------------------------- CONTAINER -------------------------- */
+.container, .container-fluid {padding: 0 0;}
+.row {margin-left: 0; margin-right: 0;}
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------- CAROUSEL ------------------------------- */
+/* Removes white gap between slides - chagnge to base color of slide images */
+.carousel {background:#007aeb;}
+/* Forces image to be 100% width and not max width of 100% */
+.carousel-item .img-fluid {width:100%;}
+/* anchors are inline so you need ot make them block to go full width */
+.carousel-item .active a:hover, .carousel-item a:hover {text-decoration: none;}
+.carousel-inner a.btn1 {width: 300px; border:solid 2px #0c797a; color:#fff; font-weight: bold; background:#0c797a;}
+.carousel-inner a.btn1:hover {background:#fff; color: #0c797a;}
+.titulo-slider {font-size: 4em; background: #0c797a; color: #fff; padding: .25em; display: table-cell;}
+.texto-slider {font-size: 2em; color: #0c797a; background: #fff; padding: .25em;}
+/* ---------------------------------------------------------------------- */
+
+/* ------------------------------ SECTIONS ------------------------------ */
+#como-funciona, #ferramentas, #cursos, #area-do-estudante{padding:66px 0 100px;}
+#como-funciona, #cursos{background: #398F90;}
+.mooc{margin: 0 auto; color: white; font-size: 1em;}
+#ferramentas, #area-do-estudante{background: white;}
+.top-section{padding: 50px 0;  margin-bottom:20px;}
+.icone-titulo{display: inline; padding: 0; max-width: 40px; margin-right: 10px}
+/* ----------------------------------------------------------- */
+
+/* -------------------------- CARDS -------------------------- */
+.card-howTo, .card-tools{ background: #f2f2f2; padding: 1em; margin-bottom:1em; border-bottom: dashed 1px #0c797a; color: #0c797a; box-shadow: 0px 3px 6.5px;}
+.card-howTo{text-align: center;}
+.card-tools{box-shadow: 0px 3px 6.5px #c2c2c2}
+.card-tools p {display: flow-root;}
+.card-curso{display: block; position:relative; background: #fff;}
+img.img-curso {width: 288px; margin: 0  auto; display: block}
+.card-curso .descricao {background: #0c797a; height: 100%; width: 100%; opacity: 0; top: 0; left: 0; position: absolute; transition: opacity .5s; color: #fff; }
+.card-curso .descricao h6 {color: #fff;}
+.card-curso:hover .descricao {opacity: .9; transition: opacity .5s;}
+.card-curso:hover .descricao a:hover {background:white; color:#0c797a; font-weight: bold;}
+img.icone1 {display: block; margin: 0 auto 1em;}
+img.icone2 {float: left; display: block; margin-right: 5%;}
+/* ----------------------------------------------------------------- */
+
+/* -------------------------- FORMULÁRIOS -------------------------- */
+.col-sm.um, .col-sm.dois{ padding: 1em;}
+.col-sm.dois{background: rgba(226,226,225,1); padding: 2rem;}
+form.loginVitrine{display: block; width: 80%; margin: 0 auto;}
+/* ------------------------------------------------------------ */
+
+/* -------------------------- BOTÕES -------------------------- */
+.btn1, .btn1-b,  .btn2{display: block; margin: 0 auto; text-align: center; padding: .5em;}
+button.btn1-b{border: none; width: 100%;}
+.btn1 {border: solid 1px #0c797a; color: #0c797a;}
+.btn1:hover, .btn1-b:hover{background: #333b42; color: white;}
+.btn1-b {background: #0c797a; color: #fff;}
+.btn2 {border: solid 1px #FFF; color: #FFFFFF;}
+/* ------------------------------------------------------------ */
+
+/* -------------------------- RODAPÉ -------------------------- */
+footer{min-height: 200px; width: 100%; background: #868e96; padding: 1em 0;}
+li.list-group-item {background: none; border:none; padding: .5em 0.5em;}
+li.list-group-item a {color: #fff; border: white;}
+a.logo-cefor-footer img, a.logo-moodle-footer img {display: block;float: left;}
+a.logo-cefor-footer img{width: 100%}
+.col-md-4.site-map {margin-bottom: 2em;}
+/* ----------------------------------------------------------------------------- */
+
+/* ------------------------------- MEDIA QUERIES ------------------------------- */ 
+@media (max-width: 575.98px) { 
+  .navbar-brand-mooc {font-size: 0.75em; margin-left: -20px; padding: 12px 10px 5px;}
+  .navbar-toggler {margin-right: 10px;}
+  .mooc {width: 91%;}
+  .card-howTo, .card-tools, .card-curso {width: 91%; margin: 0 auto .8em;} 
+  #carouselExampleIndicators {margin-top:56px;}
+  .carousel-inner a.btn1 { width: auto;}
+  .titulo-section {padding-left: .5em;}
+  .titulo-section2 {padding-left: .5em;}
+  .titulo-slider {font-size:2em;}
+  .texto-slider {font-size:1em;}
+  .card-curso .descricao{padding: 5% 1em 0;}
+  img.img-curso {width: 100%;}
+  li.list-group-item a {font-size: .9em;}
+  nav .nav-item a.nav-link {padding:.5em 1em;}
+}
+/* ------------------------------------------------------------ */
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {  
+  .card-howTo, .card-tools, .card-curso {width:47%; float: left; margin: 0 auto 1em auto;}
+  img.img-curso {width:100%;}
+  .card-curso .descricao{padding: 10% 1em 0;}
+  .card-curso .descricao p {font-size:.8em; }
+  .titulo-slider {font-size:2em}
+  .texto-slider {font-size:1.5em}
+  li.list-group-item a { font-size: .9em;}
+  nav .nav-item a.nav-link {padding:.5em 1em; }
+}
+/* ------------------------------------------------------------ */
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {  
+  .card-howTo {width: 24%; margin: 0 auto 1em auto;} 
+  .card-tools {width:23%; float: left; margin: 0 auto 1em auto;}
+  .card-tools img.icone2 {display: block; margin: 0 auto;}
+  .card-tools p {display: inline-block;}
+  .card-curso {width:32%; float: left; margin: 0 auto 1em auto;}
+  .card-curso img.img-curso {width:100%;}
+  .card-curso .descricao {font-size:.7em; padding: 15% 1em 0;}
+  .carousel-item {height:500px;}
+  .carousel-item .img-fluid {background-size: cover;}
+  li.list-group-item a {font-size: .9em;}
+  nav .nav-item a.nav-link {padding:.5em 1em;}
+}
+/* ------------------------------------------------------------ */
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+  .card-howTo {width: 24%; margin: 0 auto 1em;} 
+  .card-tools {width: 24%; float: left; margin: 0 auto 1em auto;}
+  .card-curso {width:24%; float: left; margin: 0 0.5% 1em;}
+  .mooc {font-size:1.25em; } 
+  img.img-curso {width:100%;}
+  .card-curso .descricao {font-size:.75em; padding: 20% 1em 0;}
+  .carousel-item {height:500px;}
+  .carousel-item .img-fluid {background-size: cover;}
+  li.list-group-item a {font-size: .9em;}
+  nav .nav-item a.nav-link {padding:.5em 1em;}
+  nav .nav-item a.nav-link.entrar {margin-left: 30px}
+}
+/* ------------------------------------------------------------ */
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+  .mooc {font-size:1.25em;}
+  .card-howTo{width:24%; margin: 0 auto 1em auto; } 
+  .card-tools {width: 24%; float: left; margin: 0 auto 1em auto;} 
+  .card-curso {width:24%; margin: 0 .5% 1em;} 
+  img.img-curso {width:100%;} 
+  .card-curso .descricao {font-size:.75em; padding: 25% 1em 0;} 
+  .carousel-item {height:500px;}  
+  .carousel-item .img-fluid {background-size: cover;} 
+  li.list-group-item a {font-size: .9em;}
+  nav .nav-item a.nav-link.entrar { margin-left: 50px}
+}
