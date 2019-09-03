@@ -125,6 +125,8 @@ a.logo-cefor-footer img{width: 100%}
   .texto-slider {font-size:1.5em}
   li.list-group-item a { font-size: .9em;}
   nav .nav-item a.nav-link {padding:.5em 1em; }
+  
+  .top-section { padding: 50px 0 25px;}
 }
 /* ------------------------------------------------------------ */
 
@@ -141,6 +143,7 @@ a.logo-cefor-footer img{width: 100%}
   .carousel-item .img-fluid {background-size: cover;}
   li.list-group-item a {font-size: .9em;}
   nav .nav-item a.nav-link {padding:.5em 1em;}
+  .top-section { padding: 50px 0 25px;}
 }
 /* ------------------------------------------------------------ */
 
@@ -157,6 +160,7 @@ a.logo-cefor-footer img{width: 100%}
   li.list-group-item a {font-size: .9em;}
   nav .nav-item a.nav-link {padding:.5em 1em;}
   nav .nav-item a.nav-link.entrar {margin-left: 30px}
+  .top-section { padding: 50px 0 25px;}
 }
 /* ------------------------------------------------------------ */
 
@@ -172,4 +176,5 @@ a.logo-cefor-footer img{width: 100%}
   .carousel-item .img-fluid {background-size: cover;} 
   li.list-group-item a {font-size: .9em;}
   nav .nav-item a.nav-link.entrar { margin-left: 50px}
+  .top-section { padding: 50px 0 25px;}
 }
