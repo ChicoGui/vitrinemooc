@@ -47,7 +47,7 @@ nav .nav-item a.nav-link:hover {display: block; text-transform: uppercase; backg
 
 .hero-image-1{
   height: 75%;
-  background-image: linear-gradient(to bottom, rgba(57, 143, 144, 0.5), rgba(0, 0, 0, 0.5)), url("images/slider/001-min.jpg");
+  background-image: linear-gradient(to bottom, rgba(57, 143, 144, 0.5), rgba(0, 0, 0, 0.5)), url("001-min.jpg");
 }
 
 .hero-image-2, .hero-image-3, .hero-image-4{
@@ -57,17 +57,17 @@ nav .nav-item a.nav-link:hover {display: block; text-transform: uppercase; backg
 
 .hero-image-2{
 
-  background-image: linear-gradient(to bottom, rgba(57, 143, 144, 0.5), rgba(0, 0, 0, 0.5)), url("images/slider/002-min.jpg");
+  background-image: linear-gradient(to bottom, rgba(57, 143, 144, 0.5), rgba(0, 0, 0, 0.5)), url("002-min.jpg");
 }
 
 .hero-image-3{
 
-  background-image: linear-gradient(to bottom, rgba(57, 143, 144, 0.5), rgba(0, 0, 0, 0.5)), url("images/slider/003.jpg");
+  background-image: linear-gradient(to bottom, rgba(57, 143, 144, 0.5), rgba(0, 0, 0, 0.5)), url("003.jpg");
 }
 
 .hero-image-4{
 
-  background-image: linear-gradient(to bottom, rgba(57, 143, 144, 0.5), rgba(0, 0, 0, 0.5)), url("images/slider/004.jpg");
+  background-image: linear-gradient(to bottom, rgba(57, 143, 144, 0.5), rgba(0, 0, 0, 0.5)), url("004.jpg");
 }
 
 
