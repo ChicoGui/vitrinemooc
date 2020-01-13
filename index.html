@@ -1,0 +1,754 @@
+
+
+<html lang="pt-br">
+  <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96660984-4"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-96660984-4');
+      </script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cursos Abertos - Ifes</title>
+  </head>
+  <body>
+<header id="topo">
+
+
+	<?php
+        $curlHandler = curl_init();
+
+        $userName = 'integracao-mooc';
+
+        $password = '123';
+
+          curl_setopt_array($curlHandler, [
+
+              CURLOPT_URL => 'http://troia.cefor.cefetes.br:8082/mooc-api/buscar-quantidade-matriculas',
+
+              CURLOPT_RETURNTRANSFER => true,
+
+              CURLOPT_HTTPAUTH => CURLAUTH_BASIC,
+
+              CURLOPT_USERPWD => $userName . ':' . $password,
+
+          ]);
+
+        $response = curl_exec($curlHandler);
+
+        $obj = json_decode($response);
+
+
+        curl_close($curlHandler);
+
+    ?>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+	    <div class="container">
+	    <a class="navbar-brand" href="http://ifes.edu.br"><img src="images/logo_ifes_topo.png" alt="Instituto Federal do Espírito Santo"></a>
+	    <a class="navbar-brand-mooc" href="#topo">Cursos abertos</a>
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	      <div class="collapse navbar-collapse" id="navbarResponsive">
+	        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+	          <li class="nav-item active">
+	            <a class="nav-link" href="#topo">Home</a>
+	          </li>          
+	          <li class="nav-item">
+	            <a class="nav-link" href="#cursos">Nossos Cursos</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="#como-funciona">Como Funciona</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="#ferramentas">Ferramentas</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link entrar" href="#area-do-estudante">Entrar</a>
+	          </li>
+	        </ul>        
+	      </div>
+	    </div>
+	</nav>
+</header>
+
+<div class="hero-image" id="hero1">
+  <div class="hero-text">    
+    <h2 class="hero-branco">Cursos Abertos do Ifes</h2>
+    <h3 class="hero-verde"><strong><span class="count"><?php echo $obj->{'quantidade'}?></span></strong> reconexões com o saber.</h3>
+    <h3 class="hero-verde">Reconecte-se também!</h3>
+  </div>
+</div>
+
+
+
+<div class="container-fluid" id="cursos">
+  <div class="container">
+    <div class="top-section">        
+      <h2 class="titulo-section2">Nossos Cursos</h2>
+    </div>
+    
+    <div class="row">      
+
+
+      <div class="card-curso">
+        <img class="img-curso" src="images/cursos/vitrine_FerramentaGravacaoVideo.jpg" alt="Ferramenta para gravação de vídeo aulas" >
+        <div class="descricao">
+        
+            <h6>Ferramenta para gravação de videoaulas</h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=29" class=" btn2">Acessar curso</a>
+        
+        </div>
+      </div>
+       
+      <div class="card-curso">
+        <img class="img-curso" src="images/cursos/mooc_drive_colab.png" alt="" >
+        <div class="descricao">
+
+	          <h6>Google Drive: Colaboração na prática</h6>
+	          <a href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=11" target="_blank" class=" btn2">Acessar curso</a>
+
+        </div>
+      </div>
+
+      <!--div class="card-curso">
+        <img class="img-curso" src="images/cursos/curso_validacao.png" alt="" >
+        <div class="descricao">
+          <a class="card-link" href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10">
+            <h6>Validação de curso MOOC: O curso para a comissão do Cefor. Entre já!</h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10" class=" btn2">Acessar curso</a>
+          </a>
+        </div>
+      </div-->
+
+    <div class="card-curso">
+        <img class="img-curso" src="images/cursos/vitrine_mooc_Moodle-01.jpg" alt="Moodle para educadores" >
+        <div class="descricao">
+
+            <h6>Moodle para educadores:</h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=13" target="_blank" class=" btn2">Acessar curso</a>
+
+    	</div>
+     </div>
+
+     <div class="card-curso">
+        <img class="img-curso" src="images/cursos/thumbnail_lessonStudypt_embreve.png" alt="Lesson Study Portugês" >
+          <div class="descricao">
+
+            <h6>Lesson Study (português).</h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/enrol/index.php?id=31" target="_blank" class=" btn2">Acessar curso</a>
+
+        </div>
+    </div>
+
+    <div class="card-curso">
+        <img class="img-curso" src="images/cursos/vitrine_emBreve_ProgramacaobasicaScratch.jpg" alt="lesson Study Inglês" >
+        <div class="descricao">
+
+            <h6>Programação basica: Scratch.</h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/enrol/index.php?id=14" target="_blank" class=" btn2">Acessar curso</a>
+
+        </div>
+    </div>
+    
+    <div class="card-curso">
+        <img class="img-curso" src="images/cursos/vitrine_emBreve_InclusaoSociedaddeSmartphone.jpg" alt="Inclusão sociodigital com smartphone" >
+        <div class="descricao">
+
+            <h6>Inclusão sociodigital com smartphone.</h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/enrol/index.php?id=21" target="_blank" class="btn2">Acessar curso</a>
+
+        </div>
+    </div>
+
+    <div class="card-curso">
+        <img class="img-curso" src="images/cursos/vitrine_emBreve_MoocLovelace_ProgramacaoPython.jpg" alt="Lovelace - Programação python" >
+        <div class="descricao">
+
+            <h6>MOOC de Lovelace: Programação Python</h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=23" target="_blank" class=" btn2">Acessar curso</a>
+
+        </div>
+    </div>
+
+    <div class="card-curso">
+        <img class="img-curso" src="images/cursos/vitrine_emBreve_MoocLovelace_pensamentoComputacional.jpg" alt="Lovelace - Pensamento Computacional" >
+        <div class="descricao">
+
+            <h6>MOOC de Lovelace: Pensamento Computacional</h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=22" target="_blank" class=" btn2">Acessar curso</a>
+
+        </div>
+    </div>
+
+    
+
+    <div class="card-curso">
+        <img class="img-curso" src="images/cursos/vitrine_emBreve_LessonStudyEN.jpg" alt="Lesson study Inglês" >
+        <div class="descricao">
+
+            <h6>Lesson Study (inglês). </h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/enrol/index.php?id=32" target="_blank"  class=" btn2">Acessar curso</a>
+
+        </div>
+    </div>       
+      
+    <div class="card-curso">
+        <img class="img-curso" src="images/cursos/vitrine_emBreve_ComoCriarMOOC.jpg" alt="Como criar Mooc" >
+        <!--div class="descricao">
+          <a class="card-link" href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10">
+            <h6>Validação de curso MOOC: O curso para a comissão do Cefor. </h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10" class=" btn2">Acessar curso</a>
+          </a>
+        </div-->
+    </div>
+
+    <div class="card-curso">
+        <img class="img-curso" src="images/cursos/vitrine_emBreve_MoocLovelace_RoboticaEducacional.jpg" alt="Robótica educacional" >
+        <!--div class="descricao">
+          <a class="card-link" href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10">
+            <h6>Validação de curso MOOC: O curso para a comissão do Cefor. Entre já!</h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10" class=" btn2">Acessar curso</a>
+          </a>
+        </div-->
+    </div>
+
+    <div class="card-curso">
+        <img class="img-curso" src="images/cursos/vitrine_emBreve_Moodlevisaoaluno.jpg" alt="Moodle visão aluno" >
+        <!--div class="descricao">
+          <a class="card-link" href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10">
+            <h6>Validação de curso MOOC: O curso para a comissão do Cefor. Entre já!</h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10" class=" btn2">Acessar curso</a>
+          </a>
+        </div-->
+    </div>
+
+    <div class="card-curso">
+        <img class="img-curso" src="images/cursos/vitrine_emBreve_RedacaoCientifica.jpg" alt="Redação científica" >
+        <!--div class="descricao">
+          <a class="card-link" href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10">
+            <h6>Validação de curso MOOC: O curso para a comissão do Cefor. Entre já!</h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10" class=" btn2">Acessar curso</a>
+          </a>
+        </div-->
+    </div>
+
+    <div class="card-curso">
+        <img class="img-curso" src="images/cursos/vitrine_emBreve_RVcomoapoioEnsino.jpg" alt="Realidade Virtual como apoio ao ensino" >
+        <!--div class="descricao">
+          <a class="card-link" href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10">
+            <h6>Validação de curso MOOC: O curso para a comissão do Cefor. Entre já!</h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10" class=" btn2">Acessar curso</a>
+          </a>
+        </div-->
+    </div>
+
+    <div class="card-curso">
+        <img class="img-curso" src="images/cursos/vitrine_emBreve_ScratchApoioMatematica.jpg" alt="Scratch como apoio ao ensino da Matemática" >
+        <!--div class="descricao">
+          <a class="card-link" href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10">
+            <h6>Validação de curso MOOC: O curso para a comissão do Cefor. Entre já!</h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10" class=" btn2">Acessar curso</a>
+          </a>
+        </div-->
+    </div>
+
+    <div class="card-curso">
+        <img class="img-curso" src="images/cursos/vitrine_emBreve_Unit.jpg" alt="UNIT" >
+        <!--div class="descricao">
+          <a class="card-link" href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10">
+            <h6>Validação de curso MOOC: O curso para a comissão do Cefor. Entre já!</h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10" class=" btn2">Acessar curso</a>
+          </a>
+        </div-->
+    </div>
+
+    <div class="card-curso">
+        <img class="img-curso" src="images/cursos/vitrine_emBreve_UsoEducacionalCanva.jpg" alt="Uso educaional do canvas" >
+        <!--div class="descricao">
+          <a class="card-link" href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10">
+            <h6>Validação de curso MOOC: O curso para a comissão do Cefor. Entre já!</h6>
+            <a href="https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=10" class=" btn2">Acessar curso</a>
+          </a>
+        </div-->
+    </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="hero-image" id="hero2">
+  <div class="hero-text">
+    <h2 class="hero-branco">Cursos Abertos do Ifes</h2>
+     <h3 class="hero-verde"> Reconecte-se com o saber.</h3>
+    
+    <!--button>CRIAR CONTA</button-->
+  </div>
+</div>
+
+<div class="container-fluid" id="como-funciona">
+  <div class="container" >
+
+    <div class="top-section">
+           <h2 class="titulo-section">O que é?</h2>
+      </div>
+      
+      <div class="mooc">
+
+
+        <p>Os <strong>Cursos Abertos do Ifes</strong> seguem a tendência mundial na oferta de cursos 100% on-line, no formato <strong>MOOC</strong> (do inglês, Massive Open Online Courses).</p>
+
+        São cursos:
+        <ul>        
+          <li> <strong>Gratuitos e sem tutoria</strong></li>
+          <li> <strong>Abertos</strong> porque você só precisa se inscrever e cursar, sem passar por processo seletivo</li>
+          <li> <strong>Certificados pelo Ifes</strong>, após aproveitamento mínimo de 60% do curso</li>
+          <li> Possuem carga horária máxima de 60 (sessenta) horas</li>
+          <li> Do seu jeito, <strong>você escolhe</strong> a melhor hora e lugar para estudar</li>
+        </ul>
+
+      </div>
+
+
+     
+      <div class="top-section">
+          <h2 class="titulo-section">Como Funciona</h2>
+      </div>
+
+      
+
+      <div class="row">
+        <div class="card-howTo">
+          <img class="icone1" src="images/icones/perfil.png" alt="Cadastre-se">
+          <h6>Cadastre-se</h6>
+          <p>Crie sua conta agora mesmo. Você terá acesso a todos os cursos oferecidos na Plataforma do Ifes por meio de smartphone, tablet ou computador.</p>
+          <a class="btn1" href="#area-do-estudante">CRIAR CONTA</a>
+        </div>
+
+        <div class="card-howTo">
+          <img class="icone1" src="images/icones/curso.png" alt="curso">
+          <h6>Escolha o Curso</h6>
+          <p>É hora de se reconectar com o saber. Escolha um dos Cursos Abertos do Ifes e amplie seus conhecimentos. </p>
+          <a class="btn1" href="#cursos">ESCOLHER O CURSO</a>
+        </div>
+
+        <div class="card-howTo">
+          <img class="icone1" src="images/icones/organize.png" alt="organização">
+          <h6>Faça o Curso</h6>
+          <p> Estudar sozinho tem vantagens como escolher seu próprio horário para cumprir o prazo do curso. Então, organize sua rotina de estudos e bom curso!</p>
+        </div>
+
+        <div class="card-howTo">
+          <img class="icone1" src="images/icones/certificado.png" alt="Certificado">
+          <h6>Emita seu Certificado</h6>
+          <p> Ao final de cada curso, após sua aprovação, você poderá emitir seu Certificado, reconhecido pelo MEC, na Plataforma de Cursos Abertos do Ifes.</p>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+<div class="hero-image" id="hero3">
+  
+</div>
+
+<div class="container-fluid" id="ferramentas">
+  <div class="container" >
+      <div class="top-section">
+          <h2 class="titulo-section2">Ferramentas</h2>
+      </div>
+      
+      <div class="row">
+        
+        <div class="card-tools">
+          <img class="icone1" src="images/icones/video.png" alt="Vídeos">
+          <h6> Vídeos</h6>
+          <p>São o coração dos Cursos Abertos do Ifes. Você aprende com aulas curtas, preparadas por educadores qualificados.</p>
+        </div>
+        <div class="card-tools">
+          <img class="icone1" src="images/icones/forum.png" alt="fórum">
+          <h6>Fóruns</h6>
+          <p>São espaços criados para compartilhar conhecimento. Você pode fazer postagens e aprender com as postagens dos seus colegas de curso.</p>
+        </div>
+        <div class="card-tools">
+          <img class="icone1" src="images/icones/caderno.png" alt="Cadernos">
+          <h6>Materiais Textuais</h6>
+          <p>São arquivos digitais para leitura. Você tem acesso a conteúdos atualizados, no formato de livros, artigos e afins.</p>
+        </div>
+        <div class="card-tools">
+          <img class="icone1" src="images/icones/podcast.png" alt="Podcast">
+          <h6>Outras mídias</h6>
+          <p>Podem ser utilizadas nos cursos, como podcasts, ilustrações e páginas web que contribuem para o seu jeito de estudar.</p>
+        </div>
+        
+    </div>
+  </div>
+</div>
+
+<div class="hero-image" id="hero4">
+  <div class="hero-text">
+    
+    <h2 class="hero-branco">Cursos Abertos do Ifes</h2>  
+    <h3 class="hero-verde">O curso da sua vida é você quem faz.</h3>
+    
+  </div>
+</div>
+
+<div class="container-fluid" id="matriculados">
+    <div class="container">
+      <h3>Junte-se a nós! <strong><span class="count"><?php echo $obj->{'quantidade'}?> </span></strong> matrículas realizadas. </h3>
+    </div>
+</div>
+
+
+<div class="container-fluid" id="area-do-estudante">
+  <div class="container">       
+    <div class="top-section">
+          <h2 class="titulo-section2">Área do estudante</h2>
+      </div>
+    <div class="row">
+      <div class="col-sm um">
+        <div class="texto-texto">
+        <h5>Esta é a sua primeira vez aqui?</h5>
+        <p>Crie seu perfil e seja bem-vindo à Plataforma de Cursos Abertos do Ifes.</p>
+        <p>Se você é servidor do Ifes, pode acessar a Plataforma usando seu SIAPE.</p>
+        <p>A cada curso, mais conhecimento. Quanto melhor o conhecimento, maior a transformação.</p>
+    
+
+        <a class="btn1" href="https://mooc.cefor.ifes.edu.br/moodle/login/signup.php?">CRIAR MINHA CONTA</a><br>
+      </div>
+      </div>
+      
+      <div class="col-sm dois">
+        <div class="texto-texto">
+
+            <h5>Já possui uma conta?</h5>
+            <P>Use seu login e senha para acessar a Plataforma de Cursos Abertos do Ifes.</p>
+            <p>Se você é servidor do Ifes, use seu SIAPE.</p>
+        </div>
+
+        <form  class="loginVitrine text-left" name="login" method="post" action="https://mooc.cefor.ifes.edu.br/moodle/login/index.php">
+          <div class="form-group">
+            <!--label for="formGroupExampleInput">Nome de usuário:</label-->
+            <input type="text" class="form-control" id="useLogin" placeholder="Usuário" name="username">
+          </div>
+          <div class="form-group">
+            <!--label for="formGroupExampleInput2">Senha:</label-->
+            <input type="password" class="form-control" id="passwordLogin" placeholder="Senha" name="password">
+          </div>
+
+          <button class="btn1-b" name="submit" value="login" type="submit">ENTRAR</button>
+
+          <a class="recuperar-senha" href="https://mooc.cefor.ifes.edu.br/moodle/login/forgot_password.php"> Esqueceu o seu usuário ou senha? </a>
+
+        </form>
+      </div>
+    </div>
+
+
+
+  
+
+
+  </div>
+</div>
+
+
+<div class="container-fluid" id="perguntas-frequentes">
+  <div class="container" >
+
+      <div class="top-section">
+          <h2 class="titulo-section-faq">Perguntas Frequentes</h2>
+      </div>      
+
+      <div class="row">
+        <div class="accordion" id="faq">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  1. Quero ME INSCREVER nos cursos. Como faço?
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faq">
+              <div class="card-body">
+                <ul>
+                  <li> Para se inscrever em um ou mais cursos, você deverá primeiramente <button class="faq-interno" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseFive"> CRIAR SUA CONTA </button>  na plataforma.
+
+
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  2. Quero CRIAR MINHA CONTA. Como faço?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faq">
+              <div class="card-body">
+
+                 <ul>
+                  <li> Na plataforma de Cursos Abertos do Ifes, clique no botão ENTRAR, localizado no topo da página, no lado direito.</li>
+                  <li> Você será direcionado para “Área do estudante”.</li>
+                  <li>No campo “Esta é a sua primeira vez aqui?”, clique no botão CRIAR MINHA CONTA. Ao clicar, um Formulário de Nova Conta será aberto.</li>
+                  <li>Em seguida, preencha seus dados nesse Formulário e confirme a criação de seu usuário na plataforma.</li>
+                  <li>Você receberá um e-mail e deverá ATIVAR o seu usuário.</li>
+                  <li>Após confirmar a criação de sua conta, você conseguirá se inscrever em um ou mais cursos que estejam disponíveis na plataforma de Cursos Abertos do Ifes.</li>
+                  
+                </ul> 
+
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  3. Quero CRIAR MINHA SENHA. Tem algum segredo?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faq">
+              <div class="card-body">
+
+                 <ul>
+                  <li> A senha deve ter ao menos 8 caracteres, ao menos 1 dígito, ao menos 1 letra minúscula, ao menos 1 letra maiúscula, no mínimo 1 caractere não alfa-numéricos, como *, -, ou # <br>
+                    <strong>Exemplo de senha válida: Cursos@123</strong></li>
+                  <li> Veja que nesse exemplo tem 8 caracteres, que é a quantidade mínima, tem letra maiúscula, letra minúscula, números e caracter especial, no caso o "@".</li>
+                  <li>Em caso de novas dúvidas entre em contato pelo <a class="faq-interno" href="https://mooc.cefor.ifes.edu.br/suporte/" >Suporte.</a></li>
+                  
+                </ul>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  4. Posso ter a CARTEIRINHA DE ESTUDANTE?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faq">
+              <div class="card-body">
+                Não. Somente alunos de cursos regulares (técnico, graduação e pós-graduação) têm direito à Carteirinha de Estudante, o que não é o caso de alunos dos Curso Abertos do Ifes.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  5. Quero falar com o TUTOR do curso. Como faço?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faq">
+              <div class="card-body">
+                O modelo de cursos abertos (Mooc) garantem total autonomia ao aluno. É você quem faz seu próprio itinerário para estudar, sem necessidade de tutoria on-line ou off-line.
+              </div>
+            </div>
+          </div>
+
+           <div class="card">
+            <div class="card-header" id="headingSix">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  6. Quero falar com o PROFESSOR do curso. Como faço?
+                </button>
+
+              </h5>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#faq">
+              <div class="card-body">
+               Você pode enviar sugestões para melhoria de conteúdos ou de atividades através do <a class="faq-interno" href="https://mooc.cefor.ifes.edu.br/suporte/" >Suporte.</a> Suas sugestões serão repassadas ao Professor que desenvolveu o curso.
+              </div>
+            </div>
+          </div>
+
+           <div class="card">
+            <div class="card-header" id="headingSeven">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  7. Sou VISITANTE e quero ter acesso ao curso. Como faço?
+                </button>
+                
+              </h5>
+            </div>
+            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#faq">
+              <div class="card-body">
+               Para ter acesso ao conteúdo dos cursos é necessário, primeiramente, <button class="faq-interno" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseFive"> CRIAR SUA CONTA </button> na plataforma.        
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingEight">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  8. O Certificado é emitido pelo Ifes?
+                </button>
+                
+              </h5>
+            </div>
+            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#faq">
+              <div class="card-body">
+               Após concluir o curso, tendo aproveitamento mínimo de 60%, você mesmo poderá emitir seu Certificado. E com a facilidade de ser on-line.
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <div class="faq-text">
+
+        <P>Não encontrou o que procura?</P>
+        <a class="btn-faq" href="https://mooc.cefor.ifes.edu.br/suporte/">PERGUNTE AQUI</a><br>
+      </div>
+
+  </div>
+</div>
+
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4 site-map">
+        <h5 class="titulo-rodape"> Cursos Abertos</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><a href="https://mooc.cefor.ifes.edu.br/moodle/mod/simplecertificate/verify.php">Validar Certificado</a></li>
+          <!--li class="list-group-item"><a href="">Perguntas Frequentes</a></li-->
+          <li class="list-group-item"><a href="https://proen.ifes.edu.br/images/stories/Instru%C3%A7%C3%A3o_Normativa_n%C2%BA_02-2019_Cursos_MOOC.pdf">Termos de Uso</a></li>
+          <li class="list-group-item"><a href="https://mooc.cefor.ifes.edu.br/suporte">Suporte</a></li>
+
+        </ul>
+      </div>
+
+      <div class="col-md-4 site-map">
+        <h5 class="titulo-rodape">Institucional</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><a href="http://ifes.edu.br" target="new">O Ifes</a></li>
+          <li class="list-group-item"><a href="http://cefor.ifes.edu.br" target="new">O Cefor</a></li>
+          <li class="list-group-item"><a href="http://conhecimento.cefor.ifes.edu.br" target="new">Base de Conhecimento</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        
+        <a class="logo-cefor-footer" href="http://cefor.ifes.edu.br"><img src="images/logo_ifes_cefor.svg" alt="Cefor ifes"> </a>
+        
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+</footer>
+ 
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+   
+    <script>
+		// Select all links with hashes
+		$('a[href*="#"]')
+		  // Remove links that don't actually link to anything
+		  .not('[href="#"]')
+		  .not('[href="#0"]')
+		  .click(function(event) {
+		    // On-page links
+		    if (
+		      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+		      && 
+		      location.hostname == this.hostname
+		    ) {
+		      // Figure out element to scroll to
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+		      // Does a scroll target exist?
+		      if (target.length) {
+		        // Only prevent default if animation is actually gonna happen
+		        event.preventDefault();
+		        $('html, body').animate({
+		          scrollTop: target.offset().top
+		        }, 300, function() {
+		          // Callback after animation
+		          // Must change focus!
+		          var $target = $(target);
+		          $target.focus();
+		          if ($target.is(":focus")) { // Checking if the target was focused
+		            return false;
+		          } else {
+		            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+		            $target.focus(); // Set focus again
+		          };
+		        });
+		      }
+		    }
+		  });
+
+		</script>
+
+
+    <script>
+      
+        $('.count').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 4000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+        });
+    </script>
+
+     <script>
+      $('.collapse').collapse()
+    </script>
+
+
+
+  </body>
+</html>
