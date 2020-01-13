@@ -1,5 +1,5 @@
 # Cursos Abertos - IFES
-## vitrine mooc
+## Vitrine de MOOC's
 
 Single Page com informações necessárias sobre os cursos e como participar. 
 
