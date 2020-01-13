@@ -4,7 +4,9 @@
 Single Page com informações necessárias sobre os cursos e como participar. 
 
 Trabalho desenvolvido para a Coordenadoria Geral De Tecnologias Educacionais do Instituto Federal do Espírito Santo.
+
 **ano:** 2019
+
 **Etapas:**
 Arquitetura de informação, UX/UI design;
 tecnologias utilizadas: HTML5, CSS3, JavaScript, PHP
