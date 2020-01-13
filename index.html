@@ -25,33 +25,6 @@
 <header id="topo">
 
 
-	<?php
-        $curlHandler = curl_init();
-
-        $userName = 'integracao-mooc';
-
-        $password = '123';
-
-          curl_setopt_array($curlHandler, [
-
-              CURLOPT_URL => 'http://troia.cefor.cefetes.br:8082/mooc-api/buscar-quantidade-matriculas',
-
-              CURLOPT_RETURNTRANSFER => true,
-
-              CURLOPT_HTTPAUTH => CURLAUTH_BASIC,
-
-              CURLOPT_USERPWD => $userName . ':' . $password,
-
-          ]);
-
-        $response = curl_exec($curlHandler);
-
-        $obj = json_decode($response);
-
-
-        curl_close($curlHandler);
-
-    ?>
 
     <nav class="navbar navbar-expand-lg fixed-top">
 	    <div class="container">
@@ -86,7 +59,7 @@
 <div class="hero-image" id="hero1">
   <div class="hero-text">    
     <h2 class="hero-branco">Cursos Abertos do Ifes</h2>
-    <h3 class="hero-verde"><strong><span class="count"><?php echo $obj->{'quantidade'}?></span></strong> reconexões com o saber.</h3>
+    <h3 class="hero-verde"><strong><span class="count">2000</span></strong> reconexões com o saber.</h3>
     <h3 class="hero-verde">Reconecte-se também!</h3>
   </div>
 </div>
@@ -410,7 +383,7 @@
 
 <div class="container-fluid" id="matriculados">
     <div class="container">
-      <h3>Junte-se a nós! <strong><span class="count"><?php echo $obj->{'quantidade'}?> </span></strong> matrículas realizadas. </h3>
+      <h3>Junte-se a nós! <strong><span class="count">2000 </span></strong> matrículas realizadas. </h3>
     </div>
 </div>
 
