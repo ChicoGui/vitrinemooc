@@ -25,7 +25,33 @@
 <header id="topo">
 
 
-	
+	<?php
+        $curlHandler = curl_init();
+
+        $userName = 'integracao-mooc';
+
+        $password = '123';
+
+          curl_setopt_array($curlHandler, [
+
+              CURLOPT_URL => 'http://troia.cefor.cefetes.br:8082/mooc-api/buscar-quantidade-matriculas',
+
+              CURLOPT_RETURNTRANSFER => true,
+
+              CURLOPT_HTTPAUTH => CURLAUTH_BASIC,
+
+              CURLOPT_USERPWD => $userName . ':' . $password,
+
+          ]);
+
+        $response = curl_exec($curlHandler);
+
+        $obj = json_decode($response);
+
+
+        curl_close($curlHandler);
+
+    ?>
 
     <nav class="navbar navbar-expand-lg fixed-top">
 	    <div class="container">
