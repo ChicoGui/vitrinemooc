@@ -8,8 +8,9 @@ Trabalho desenvolvido para a Coordenadoria Geral De Tecnologias Educacionais do 
 **ano:** 2019
 
 **Etapas:**
-Arquitetura de informação, UX/UI design;
-tecnologias utilizadas: HTML5, CSS3, JavaScript, PHP
+1. Arquitetura de informação, UX/UI design;
+2. Desenvolvimento:
+    tecnologias utilizadas: HTML5, CSS3, JavaScript, PHP
 
 ![Alt ou título da imagem](/vitrine.png)
 
