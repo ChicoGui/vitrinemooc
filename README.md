@@ -5,6 +5,8 @@ Single Page com informações necessárias sobre os cursos e como participar.
 
 Trabalho desenvolvido para a Coordenadoria Geral De Tecnologias Educacionais do Instituto Federal do Espírito Santo.
 
+[Acessar Cursos Abertos ifes](http://conhecimento.cefor.ifes.edu.br)
+
 **ano:** 2019
 
 **Etapas:**
