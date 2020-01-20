@@ -11,7 +11,7 @@ MVP/Single Page como canal de acesso para os cursos MOOC oferecidos pelo Cefor -
 **Etapas:**
 1. Arquitetura de informação
 2. UX/UI design
-3. Desenvolvimento (HTML5, CSS3, JavaScript, PHP) 
+3. Desenvolvimento (HTML5, CSS3, bootstrap, JavaScript, PHP) 
 
 ![Alt ou título da imagem](/vitrine.png)
 
