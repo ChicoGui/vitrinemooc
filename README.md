@@ -2,7 +2,7 @@
 ## Vitrine de MOOC's
 Trabalho desenvolvido dentro da Coordenadoria Geral De Tecnologias Educacionais - CGTE, situada no Centro de Referência em Formação e em Educação a Distância - Cefor do Instituto Federal do Espírito Santo.
 
-Single Page com informações necessárias sobre os cursos e como participar.
+MVP/Single Page como canal de acesso para os cursos MOOC oferecidos pelo Cefor - Ifes, monstrando as facilidades e benefícios da realização dos cursos e as ferramentas que ficaram disponíveis para os alunos.
 
 [Acessar Cursos Abertos ifes](http://mooc.cefor.ifes.edu.br)
 
