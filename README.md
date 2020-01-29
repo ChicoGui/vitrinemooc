@@ -12,15 +12,15 @@ Trabalho desenvolvido dentro da Coordenadoria Geral De Tecnologias Educacionais 
 Para dar início ao projeto optou-se por lançar uma Single Page, MVP, como canal de acesso para os cursos MOOC oferecidos pelo Cefor - Ifes, monstrando as facilidades e benefícios da realização dos cursos e as ferramentas disponíveis para os alunos.
 
 **Etapas:**
-- Arquitetura de informação
-- UX/UI design
-- Desenvolvimento (HTML5, CSS3, bootstrap, JavaScript, PHP) 
+- Arquitetura de informação;
+- UX/UI design;
+- Desenvolvimento (HTML5, CSS3, bootstrap, JavaScript, PHP); 
 
 ![Alt ou título da imagem](/vitrine.png)
 
 ### **2. Integração Moodle - Wordpress**
 
-Apóes o lançamento da Vitrine de cursos abertos, deu-se início ao processo de integração com o Moodle, plataforma dos ambientes virtuais de aprendizagem, com o Wordpress.
+Após o lançamento da Vitrine de cursos abertos, deu-se início ao processo de integração com o Moodle, plataforma dos ambientes virtuais de aprendizagem, com o Wordpress.
 
 Nesta parte do projeto buscou-se otimizar e dar autonomia para os professores na inserção de conteúdo atraves de um painel admnistrativo de fácil uso.
 
