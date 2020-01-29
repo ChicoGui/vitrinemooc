@@ -28,4 +28,4 @@ Para integrar o Moodle com o Wordpress adotou-se o plugin [Edwiser Bridge](https
 
 - Sincronizar os dados mantendo o WordPress e o Moodle atualizados com os dados de usuários registrados nos cursos.
 - Criação de categorias de cursos no wordpress e Sincronização com as categorias criadas no moodle;
-- Inscrever e cancelar a inscrição de alunos no WordPress, permitindo ou não o registro nos cursos através do WordPress e refletir as mudanças no Moodle.
+- Inscrever e cancelar a inscrição de alunos no WordPress, permitindo, ou não, o registro nos cursos através do WordPress e refletir as mudanças no Moodle.
