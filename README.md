@@ -15,3 +15,10 @@ Single Page, MVP (Minimum Viable Product), como canal de acesso para os cursos M
 
 ![Alt ou título da imagem](/vitrine.png)
 
+Apóes o lançamento da Vitrine de cursos abertos, deu-se início ao processo de integração com o Moodle, plataforma dos ambientes virtuais de aprendizagem, com Wordpress.
+
+
+
+
+
+
