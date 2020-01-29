@@ -37,6 +37,7 @@ Para integrar o Moodle com o Wordpress adotou-se o plugin [Edwiser Bridge](https
 
 - **Arquitetura de informação**
 	- Tipos de conteúdo;
+	
 	Classificação e organização dos cursos;
 
 - **UI/UX Design**
