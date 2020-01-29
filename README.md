@@ -34,6 +34,7 @@ Para integrar o Moodle com o Wordpress adotou-se o plugin [Edwiser Bridge](https
 - Inscrever e cancelar a inscrição de alunos no WordPress, permitindo, ou não, o registro nos cursos através do WordPress e refletir as mudanças no Moodle;
 
 #### Projetando tema wordpress
+
 - **Arquitetura de informação**
 	- Tipos de conteúdo;
 - **UI/UX Design**
