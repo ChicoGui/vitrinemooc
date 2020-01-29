@@ -17,7 +17,7 @@ Após o lançamento da Vitrine de cursos abertos, deu-se início ao processo de 
 
 Nesta parte do projeto buscou-se otimizar e dar autonomia para os professores na inserção de conteúdo atraves de um painel admnistrativo de fácil uso.
 
-#### por que o moodle?
+#### Por que o moodle?
 
 O moodle é um software livre e gratuito de apoio à aprendizagem multiplatadorma. Pode ser utilizada não só como ambiente de suporte à Educação a Distância mas também como apoio a cursos presenciais, formação de grupos de estudo, treinamento de professores.
 
@@ -25,7 +25,7 @@ O moodle é um software livre e gratuito de apoio à aprendizagem multiplatadorm
 
 Assim como o moodle o WordPress é um CMS livre e gratuito, possui uma comunidade grande, forte, ativa e oferece uma interface de uso simples e amigável quando comparável à outros sistemas de gerenciamento de conteúdo.
 
-#### como integrar as duas plataformas?
+#### Como integrar as duas plataformas?
 
 Para integrar o Moodle com o Wordpress adotou-se o plugin [Edwiser Bridge](https://edwiser.org/bridge/) por ser de fácil utilização, customisável, dar suporte para outros idiomas e ter uma versão grátis.
 
