@@ -26,13 +26,6 @@ Nesta parte do projeto buscou-se otimizar e dar autonomia para os professores na
 
 Para integrar o Moodle com o Wordpress adotou-se o plugin [Edwiser Bridge](https://edwiser.org/bridge/) por ser de fácil utilização, customisável, dar suporte para outros idiomas e ter uma versão grátis.
 
-
-
-
-
-
-
-
-
-
-
+- Sincronizar os dados dos cursos registrados para os usuário, mantendo o WordPress e o Moodle atualizados com os dados de usuários registrados nos cursos.
+- Criação de categorias de cursos no wordpress e Sincronização com as categorias criadas no moodle;
+- Inscrever e cancelar a inscrição de alunos no WordPress e refletir as mudanças no Moodle.
