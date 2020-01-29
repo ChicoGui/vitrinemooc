@@ -16,13 +16,14 @@ Para dar início ao projeto optou-se por lançar uma Single Page, MVP, como cana
 2. UX/UI design
 3. Desenvolvimento (HTML5, CSS3, bootstrap, JavaScript, PHP) 
 
-![Alt ou título da imagem](/vitrinse.png)
+![Alt ou título da imagem](/vitrine.png)
 
 ### **Integração Moodle - Wordpress**
 
 Apóes o lançamento da Vitrine de cursos abertos, deu-se início ao processo de integração com o Moodle, plataforma dos ambientes virtuais de aprendizagem, com o Wordpress.
 
-Nesta etapa do projeto buscou-se otimizar e dar autonomia para os professores na inserção de conteúdo.
+Nesta parte do projeto buscou-se otimizar e dar autonomia para os professores na inserção de conteúdo.
+
 
 
 
