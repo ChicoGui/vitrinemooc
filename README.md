@@ -8,7 +8,7 @@ Trabalho desenvolvido dentro da Coordenadoria Geral De Tecnologias Educacionais 
 
 ### **1. lançamento MVP**
 
-Para dar início ao projeto optou-se por lançar uma Single Page, MVP, como canal de acesso para os cursos MOOC oferecidos pelo Cefor - Ifes, monstrando as facilidades e benefícios da realização dos cursos e as ferramentas disponíveis para os alunos.
+Para dar início ao projeto optou-se por lançar um MVP como canal de acesso para os cursos MOOC oferecidos pelo Cefor - Ifes, monstrando as facilidades e benefícios da realização dos cursos e as ferramentas disponíveis para os alunos.
 
 **Tecnologias aplicadas:** Bootstrap, JavaScript, PHP.
 
@@ -34,7 +34,7 @@ Para integrar o Moodle com o Wordpress adotou-se o plugin [Edwiser Bridge](https
 
 Podemos destacar 2 funcionalidades interessantes para o nosso projeto:
 
-1. Sincronizar os dados mantendo o WordPress e o Moodle atualizados com os dados de usuários registrados nos cursos. Possibilitar a inscrição ou cancelamento da inscrição de alunos, permitindo, ou não, o registro nos cursos através do WordPress e refletir as mudanças no Moodle;
+1. Possibilitar a inscrição ou cancelamento da inscrição de alunos, permitindo, ou não, o registro nos cursos através do WordPress e refletir as mudanças no Moodle;
 2. Criação de categorias de cursos no wordpress e Sincronização com as categorias criadas no moodle;
 
 #### Projetando tema wordpress
