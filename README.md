@@ -12,7 +12,6 @@ Para dar início ao projeto optou-se por lançar um MVP como canal de acesso par
 
 **Tecnologias aplicadas:** Bootstrap, JavaScript, PHP.
 
-![Alt ou título da imagem](/vitrine_mobile.png)
 ![Alt ou título da imagem](/vitrine_small.png)
 
 ### **2. Integração Moodle - Wordpress**
