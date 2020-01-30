@@ -39,7 +39,7 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 
 #### Projetando tema wordpress
 
-- **Arquitetura de informação**
+##### Arquitetura de informação
 
 	- custom post types
 
@@ -57,6 +57,6 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 		- computação;
 		- metodoligia de pesquisa;
 
-- **UI/UX Design**
+##### UI/UX Design
 
-- **Desenvolvimento**
+##### Desenvolvimento
