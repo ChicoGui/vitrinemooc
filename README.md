@@ -43,7 +43,7 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 
 - custom post types
 
-O WordPress já disponibiliza alguns tipos padrões de conteúdo, mas para ampliar a subdivisão e suas relações, a criação de custom post types facilita a administração de conteúdo e o design de front-end.
+	O WordPress já disponibiliza alguns tipos padrões de conteúdo, mas para ampliar a subdivisão e suas relações, a criação de custom post types facilita a administração de conteúdo e o design de front-end.
 
 Inicialmente foram criados 2 Custom Post Types: 
 	- Cursos;
@@ -58,5 +58,7 @@ Inicialmente foram criados 2 Custom Post Types:
 	- metodoligia de pesquisa;
 
 ##### UI/UX Design
-
+	-
+	
 ##### Desenvolvimento
+	-
