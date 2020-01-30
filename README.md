@@ -6,7 +6,7 @@ Trabalho em desenvolvimento dentro da Coordenadoria Geral De Tecnologias Educaci
 
 **ano:** início em 2019
 
-### **1. lançamento MVP**
+### **Lançamento MVP**
 
 Para dar início ao projeto optou-se por lançar um MVP como canal de acesso para os cursos MOOC oferecidos pelo Cefor - Ifes, monstrando as facilidades e benefícios da realização dos cursos e as ferramentas disponíveis para os alunos.
 
@@ -14,7 +14,7 @@ Para dar início ao projeto optou-se por lançar um MVP como canal de acesso par
 
 ![Alt ou título da imagem](/vitrine_small.png)
 
-### **2. Integração Moodle - Wordpress**
+### **Integração Moodle - Wordpress**
 
 Após o lançamento da Vitrine de cursos abertos, deu-se início ao processo de integração com o Moodle, plataforma dos ambientes virtuais de aprendizagem, com o Wordpress.
 
