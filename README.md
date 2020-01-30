@@ -41,21 +41,21 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 
 ##### Arquitetura de informação
 
-	- custom post types
+- custom post types
 
-		O WordPress já disponibiliza alguns tipos padrões de conteúdo, mas para ampliar a subdivisão e suas relações, a criação de custom post types facilita a administração de conteúdo e o design de front-end.
+O WordPress já disponibiliza alguns tipos padrões de conteúdo, mas para ampliar a subdivisão e suas relações, a criação de custom post types facilita a administração de conteúdo e o design de front-end.
 
-		Inicialmente foram criados 2 Custom Post Types: 
-		- Cursos;
-		- F.A.Q;
+Inicialmente foram criados 2 Custom Post Types: 
+	- Cursos;
+	- F.A.Q;
 	
-	- Taxonomias
+- Taxonomias
 
-		Assim como podemos criar tipos de conteúdo personalizados, podemos criar taxanomias personalizadas e relacionarmos com tipos de conteúdo específicos, aumentando assim a organização do conteúdo.
-		- tecnolgias educacionais;
-		- ciências e matemática;
-		- computação;
-		- metodoligia de pesquisa;
+	Assim como podemos criar tipos de conteúdo personalizados, podemos criar taxanomias personalizadas e relacionarmos com tipos de conteúdo específicos, aumentando assim a organização do conteúdo.
+	- tecnolgias educacionais;
+	- ciências e matemática;
+	- computação;
+	- metodoligia de pesquisa;
 
 ##### UI/UX Design
 
