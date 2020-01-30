@@ -39,7 +39,7 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 
 #### Projetando tema wordpress
 
-##### Arquitetura de informação
+##### **Arquitetura de informação**
 Etapa onde se deseja garantir que as informações sejam acessíveis e fáceis para os usuários, organizando o conteúdo da plataforma através de uma estruturação de conteúdo que possibilite aos usuários encontrarem tudo o que necessitam para conhecer os cursos, se inscreverem e cursarem. 
 
 Projetar uma estrutura para que de como as informações devem ser acessadas, apresentadas e conectadas. tendo como foco facilitar o acesso do usuário ao conteúdo no seu contexto de uso, porporcionando aos usuários uma visão clara de onde eles estão, o que  encontraram e os caminhos possíveis a seguir ao escolher determinado caminho de navegação.
@@ -60,7 +60,7 @@ Projetar uma estrutura para que de como as informações devem ser acessadas, ap
 	- computação;
 	- metodoligia de pesquisa;
 
-##### UI/UX Design
+##### **UI/UX Design**
 A idéia geral do projeto é proporcionar uma plataforma onde o usuário poderá encontrar todas as informações necessárias sobre os cursos, como se inscrever e navegar pela plataforma de cursos abertos.
 
 Dada a dinamicidade do acesso à informação e as tendências deste tempo, como escolha de projeto, optou-se pelo desenvolvimento de uma progressive web app, entregando uma aplicação web com algumas característica importantes, sendo elas:
@@ -71,5 +71,5 @@ Dada a dinamicidade do acesso à informação e as tendências deste tempo, como
 - **Instalável**, possibilitando que a aplicação seja adicionada à *home screen* do celular, permitindo que os usuários salvem a aplicação os aplicativos que eles considerarem mais úteis ou importantes;
 - **compartilhavel**, facilitando ao compartilhar conteúdo ao enviar o link para alguém.
 	
-##### Desenvolvimento
+##### **Desenvolvimento**
 
