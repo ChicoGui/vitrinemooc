@@ -43,11 +43,12 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 A idéia geral do projeto é proporcionar uma plataforma onde o usuário poderá encontrar todas as informações necessárias sobre os cursos, como se inscrever e navegar pela plataforma de cursos abertos.
 
 Dada a dinamicidade do acesso à informação e as tendências deste tempo, como escolha de projeto, optou-se pelo desenvolvimento de uma progressive web app, entregando uma aplicação web com algumas característica importantes, sendo elas:
-	- **Responsivo**, adaptando-se facilmente em qualquer resolução de tela;
-	- **atualizado** o usuário não precisa “baixar uma atualização do app” de tempos em tempos. Toda vez que acessar a aplicação as informações estarão atualizadas;
-	- **SEO-friendly**, os mecanismos de busca conseguem encontrar o conteúdo dos aplicativos (o que consequentemente beneficia tanto os usuários quando as empresas);
-	- **Instalável**, podem ser adicionados à home screen do celular, permitindo que os usuários “salvem” os aplicativos que eles considerarem mais úteis ou importantes;
-	- **compartilhavel** mais fáceis de compartilhar conteúdo ao enviar o link para alguém.
+
+- **Responsivo**, adaptando-se facilmente em qualquer resolução de tela;
+- **atualizado** o usuário não precisa “baixar uma atualização do app” de tempos em tempos. Toda vez que acessar a aplicação as informações estarão atualizadas;
+- **SEO-friendly**, os mecanismos de busca conseguem encontrar o conteúdo dos aplicativos (o que consequentemente beneficia tanto os usuários quando as empresas);
+- **Instalável**, podem ser adicionados à home screen do celular, permitindo que os usuários “salvem” os aplicativos que eles considerarem mais úteis ou importantes;
+- **compartilhavel** mais fáceis de compartilhar conteúdo ao enviar o link para alguém.
 	
 - custom post types
 
