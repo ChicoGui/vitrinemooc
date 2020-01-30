@@ -32,7 +32,7 @@ Assim como o moodle, o WordPress é livre e gratuito, possui uma comunidade gran
 
 Para integrar o Moodle com o Wordpress adotou-se o plugin [Edwiser Bridge](https://edwiser.org/bridge/) por ser de fácil utilização, customisável, dar suporte para outros idiomas e ter uma versão grátis.
 
-Podemos destacar 2 funcionalidades interessantes para o nosso projeto:
+Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 
 1. Possibilitar a inscrição ou cancelamento da inscrição de alunos, permitindo, ou não, o registro nos cursos através do WordPress e refletir as mudanças no Moodle;
 2. Criação de categorias de cursos no wordpress e Sincronização com as categorias criadas no moodle;
