@@ -12,7 +12,7 @@ Para dar início ao projeto optou-se por lançar uma Single Page, MVP, como cana
 
 **Tecnologias aplicadas:** Bootstrap, JavaScript, PHP.
 
-![Alt ou título da imagem](/vitrine.png)
+![Alt ou título da imagem](/vitrine_small.png)
 
 ### **2. Integração Moodle - Wordpress**
 
