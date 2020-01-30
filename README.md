@@ -42,7 +42,7 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 ##### Arquitetura de informação
 Etapa onde se deseja garantir que as informações sejam acessíveis e fáceis para os usuários, organizando o conteúdo da plataforma através de uma estruturação de conteúdo que possibilite aos usuários encontrarem tudo o que necessitam para conhecer os cursos, se inscreverem e cursarem. 
 
-Projetar uma estrutura para que de como as informações devem ser acessadas, apresentadas e conectadas. tendo como foco facilitar o acesso do usuário ao conteúdo no seu contexto de uso, porporcionando aos usuários uma visão clara de onde eles estão, o que eles encontraram, os caminhos possíveis a seguir e o que encontrarão ao escolher determinado caminho de navegação.
+Projetar uma estrutura para que de como as informações devem ser acessadas, apresentadas e conectadas. tendo como foco facilitar o acesso do usuário ao conteúdo no seu contexto de uso, porporcionando aos usuários uma visão clara de onde eles estão, o que  encontraram e os caminhos possíveis a seguir ao escolher determinado caminho de navegação.
 
 - custom post types
 
