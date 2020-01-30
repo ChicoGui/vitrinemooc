@@ -22,19 +22,20 @@ Nesta parte do projeto buscou-se otimizar e dar autonomia para os professores na
 
 #### Por que o moodle?
 
-O moodle é um software livre e gratuito de apoio à aprendizagem multiplatadorma. Pode ser utilizada não só como ambiente de suporte à Educação a Distância mas também como apoio a cursos presenciais, formação de grupos de estudo, treinamento de professores.
+O moodle é um software multiplataforma, livre e gratuito de apoio à aprendizagem. Pode ser utilizado não só como ambiente de suporte à Educação a Distância mas também como apoio a cursos presenciais, formação de grupos de estudo, treinamento de professores e equipes.
 
 #### Por que o wordpress?
 
-Assim como o moodle o WordPress é um CMS livre e gratuito, possui uma comunidade grande, forte, ativa e oferece uma interface de uso simples e amigável quando comparável à outros sistemas de gerenciamento de conteúdo.
+Assim como o moodle, o WordPress é livre e gratuito, possui uma comunidade grande, forte, ativa e oferece uma interface de uso simples e amigável quando comparável à outros sistemas de gerenciamento de conteúdo.
 
 #### Como integrar as duas plataformas?
 
 Para integrar o Moodle com o Wordpress adotou-se o plugin [Edwiser Bridge](https://edwiser.org/bridge/) por ser de fácil utilização, customisável, dar suporte para outros idiomas e ter uma versão grátis.
 
-- Sincronizar os dados mantendo o WordPress e o Moodle atualizados com os dados de usuários registrados nos cursos;
-- Criação de categorias de cursos no wordpress e Sincronização com as categorias criadas no moodle;
-- Inscrever e cancelar a inscrição de alunos no WordPress, permitindo, ou não, o registro nos cursos através do WordPress e refletir as mudanças no Moodle;
+Podemos destacar 2 funcionalidades interessantes para o nosso projeto:
+
+1. Sincronizar os dados mantendo o WordPress e o Moodle atualizados com os dados de usuários registrados nos cursos. Possibilitar a inscrição ou cancelamento da inscrição de alunos, permitindo, ou não, o registro nos cursos através do WordPress e refletir as mudanças no Moodle;
+2. Criação de categorias de cursos no wordpress e Sincronização com as categorias criadas no moodle;
 
 #### Projetando tema wordpress
 
