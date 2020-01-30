@@ -42,9 +42,13 @@ Podemos destacar 2 funcionalidades interessantes para o nosso projeto:
 - **Arquitetura de informação**
 	- conteúdo;
 		- custom post types
+			O WordPress já disponibiliza alguns tipos de conteúdo padrões, mas para ampliar a subdivisão do conteúso e suas relações, a criação de custom post types facilita a administração de conteúdo e o design de front-end.
+			Inicialmente foram criados 2 Custom Post Types: 
 			- Cursos;
 			- F.A.Q;
-	- Classificação e organização dos cursos;
+		- Taxonomias
+			Assim como podemos criar tipos de conteúdo personalizados, podemos criar taxanomias personalizadas e relacionarmos com tipos de conteúdo específicos, aumentando assim a organização do conteúdo.
+			- áreas
 
 - **UI/UX Design**
 	- cores;
