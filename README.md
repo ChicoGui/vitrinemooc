@@ -53,10 +53,10 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 
 		Assim como podemos criar tipos de conteúdo personalizados, podemos criar taxanomias personalizadas e relacionarmos com tipos de conteúdo específicos, aumentando assim a organização do conteúdo.
 		- tecnolgias educacionais;
-	
+		- ciências e matemática;
+		- computação;
+		- metodoligia de pesquisa;
 
 - **UI/UX Design**
-	- cores;
-	- iconografias;
 
 - **Desenvolvimento**
