@@ -8,7 +8,7 @@ Trabalho em desenvolvimento dentro da Coordenadoria Geral De Tecnologias Educaci
 
 ### **Lançamento MVP**
 
-Para dar início ao projeto optou-se por lançar um MVP como canal de acesso para os cursos MOOC oferecidos pelo Cefor - Ifes, monstrando as facilidades e benefícios da realização dos cursos e as ferramentas disponíveis para os alunos.
+Para dar início ao projeto optou-se por lançar um MVP como canal de acesso para os cursos MOOC oferecidos, monstrando as facilidades e benefícios da realização dos cursos e as ferramentas disponíveis para os alunos.
 
 **Tecnologias aplicadas:** Bootstrap, JavaScript, PHP.
 
@@ -16,7 +16,7 @@ Para dar início ao projeto optou-se por lançar um MVP como canal de acesso par
 
 ### **Integração Moodle - Wordpress**
 
-Após o lançamento da Vitrine de cursos abertos, deu-se início ao processo de integração com o Moodle, plataforma dos ambientes virtuais de aprendizagem, com o Wordpress.
+Após o lançamento da Vitrine deu-se início ao processo de integração com o Moodle, plataforma dos ambientes virtuais de aprendizagem, com o Wordpress.
 
 Nesta parte do projeto buscou-se otimizar e dar autonomia para os professores na inserção de conteúdo atraves de um painel admnistrativo de fácil uso.
 
@@ -26,7 +26,7 @@ O moodle é um software multiplataforma, livre e gratuito de apoio à aprendizag
 
 #### Por que o wordpress?
 
-Assim como o moodle, o WordPress é livre e gratuito, possui uma comunidade grande, forte, ativa e oferece uma interface de uso simples e amigável quando comparável à outros sistemas de gerenciamento de conteúdo.
+Assim como o moodle, o WordPress é livre e gratuito, possui uma comunidade grande e ativa, além de oferecer uma interface de uso simples e amigável quando comparada à outros sistemas de gerenciamento de conteúdo.
 
 #### Como integrar as duas plataformas?
 
@@ -40,7 +40,7 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 #### Projetando tema wordpress
 
 ##### **Arquitetura de informação**
-Etapa onde se deseja garantir que as informações sejam acessíveis e fáceis para os usuários, organizando o conteúdo da plataforma através de uma estruturação de conteúdo que possibilite aos usuários encontrarem tudo o que necessitam para conhecer os cursos, se inscreverem e cursarem. 
+Etapa onde se deseja garantir que as informações sejam acessíveis e fáceis para os usuários, organizando o conteúdo através de uma estruturação que possibilite aos usuários encontrarem tudo o que necessitam para conhecer os cursos, se inscreverem e cursarem. 
 
 Projetar uma estrutura para que de como as informações devem ser acessadas, apresentadas e conectadas. tendo como foco facilitar o acesso do usuário ao conteúdo no seu contexto de uso, porporcionando aos usuários uma visão clara de onde eles estão, o que  encontraram e os caminhos possíveis a seguir ao escolher determinado caminho de navegação.
 
