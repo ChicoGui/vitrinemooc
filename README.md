@@ -42,7 +42,8 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 ##### Arquitetura de informação
 A idéia geral do projeto é proporcionar uma plataforma onde o usuário poderá encontrar todas as informações necessárias sobre os cursos, como se inscrever e navegar pela plataforma de cursos abertos.
 
-Dada a dinamicidade do acesso à informação e as tendências deste tempo, como escolha de projeto, optou-se pelo desenvolvimento de uma progressive web app, entregando uma aplicação web com algumas característica importantes, sendo elas:	
+Dada a dinamicidade do acesso à informação e as tendências deste tempo, como escolha de projeto, optou-se pelo desenvolvimento de uma progressive web app, entregando uma aplicação web com algumas característica importantes, sendo elas:
+
 	- Responsivo: se encaixa mais facilmente em qualquer resolução de tela;
 	- Sempre atualizado: o usuário não precisa “baixar uma atualização do app” de tempos em tempos. Como está tudo na web, na próxima vez que ele abrir o app a nova versão já estará lá;
 	- SEO-friendly: os mecanismos de busca conseguem encontrar o conteúdo dos aplicativos (o que consequentemente beneficia tanto os usuários quando as empresas);
