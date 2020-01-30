@@ -40,16 +40,10 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 #### Projetando tema wordpress
 
 ##### Arquitetura de informação
-A idéia geral do projeto é proporcionar uma plataforma onde o usuário poderá encontrar todas as informações necessárias sobre os cursos, como se inscrever e navegar pela plataforma de cursos abertos.
+Etapa onde se deseja garantir que as informações sejam acessíveis e fáceis para os usuários, organizando o conteúdo da plataforma através de uma estruturação de conteúdo que possibilite aos usuários encontrarem tudo o que necessitam para conhecer os cursos, se inscreverem e cursarem. 
 
-Dada a dinamicidade do acesso à informação e as tendências deste tempo, como escolha de projeto, optou-se pelo desenvolvimento de uma progressive web app, entregando uma aplicação web com algumas característica importantes, sendo elas:
+Projetar uma estrutura para que de como as informações devem ser acessadas, apresentadas e conectadas. tendo como foco facilitar o acesso do usuário ao conteúdo no seu contexto de uso, porporcionando aos usuários uma visão clara de onde eles estão, o que eles encontraram, os caminhos possíveis a seguir e o que encontrarão ao escolher determinado caminho de navegação.
 
-- **Responsivo**, adaptando-se facilmente em qualquer resolução de tela;
-- **atualizado**, uma vez que o usuário não precisa “baixar uma atualização do app” de tempos em tempos. Toda vez que acessar a aplicação as informações estarão atualizadas;
-- **SEO-friendly**, pois os mecanismos de busca conseguem encontrar o conteúdo dos aplicativos;
-- **Instalável**, sendo possícel ser adicionados à home screen do celular, permitindo que os usuários “salvem” os aplicativos que eles considerarem mais úteis ou importantes;
-- **compartilhavel**, facilitando ao compartilhar conteúdo ao enviar o link para alguém.
-	
 - custom post types
 
 	O WordPress já disponibiliza alguns tipos padrões de conteúdo, mas para ampliar a subdivisão e suas relações, a criação de custom post types facilita a administração de conteúdo e o design de front-end.
@@ -67,7 +61,15 @@ Inicialmente foram criados 2 Custom Post Types:
 	- metodoligia de pesquisa;
 
 ##### UI/UX Design
-	-
+A idéia geral do projeto é proporcionar uma plataforma onde o usuário poderá encontrar todas as informações necessárias sobre os cursos, como se inscrever e navegar pela plataforma de cursos abertos.
+
+Dada a dinamicidade do acesso à informação e as tendências deste tempo, como escolha de projeto, optou-se pelo desenvolvimento de uma progressive web app, entregando uma aplicação web com algumas característica importantes, sendo elas:
+
+- **Responsivo**, adaptando-se facilmente em qualquer resolução de tela;
+- **atualizado**, uma vez que o usuário não precisa “baixar uma atualização do app” de tempos em tempos. Toda vez que acessar a aplicação as informações estarão atualizadas;
+- **SEO-friendly**, pois os mecanismos de busca conseguem encontrar o conteúdo dos aplicativos;
+- **Instalável**, sendo possícel ser adicionados à home screen do celular, permitindo que os usuários “salvem” os aplicativos que eles considerarem mais úteis ou importantes;
+- **compartilhavel**, facilitando ao compartilhar conteúdo ao enviar o link para alguém.
 	
 ##### Desenvolvimento
-	-
+
