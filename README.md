@@ -68,7 +68,6 @@ Projetar uma estrutura para que de como as informações devem ser acessadas, ap
 	- Tecnolgias educacionais;
 	- Ciências e matemática;
 	- Computação;
-	- Metodoligia de pesquisa;
 
 #### Identidade Visual
 
