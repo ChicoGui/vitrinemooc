@@ -46,9 +46,9 @@ A idéia geral do projeto é proporcionar uma plataforma onde o usuário possa e
 - **compartilhavel**, facilitando ao compartilhar conteúdo ao enviar o link para alguém.
 
 #### Arquitetura de informação
-Para garantir que as informações sejam acessíveis e fáceis para os usuários se faz necessário uma estruturação de conteúdo que possibilite aos usuários encontrarem tudo o que necessitam para conhecer os cursos, se inscreverem e cursarem. 
+Para garantir que as informações sejam acessíveis e fáceis para os usuários se faz necessário uma estruturação de conteúdo que possibilite aos usuários encontrarem tudo para conhecer os cursos, se inscreverem e cursarem. 
 
-Projetar uma estrutura para que de como as informações devem ser acessadas, apresentadas e conectadas, para facilitar o acesso ao conteúdo no seu contexto de uso, porporcionando aos usuários uma visão clara de onde eles estão, o que encontraram e os caminhos possíveis a seguir ao escolher determinado caminho de navegação.
+Definir uma estrutura de como as informações devam ser acessadas, apresentadas e conectadas, facilitando o acesso ao conteúdo no seu contexto de uso, porporcionando aos usuários uma visão clara de onde eles estão e os caminhos possíveis a seguir ao escolher determinado caminho de navegação.
 
 - custom post types
 
