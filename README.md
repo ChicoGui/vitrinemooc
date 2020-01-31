@@ -42,7 +42,7 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 A idéia geral do projeto é proporcionar uma plataforma onde o usuário possa encontrar todas as informações necessárias sobre os cursos abertos oferecidos, proporcionando uma  Funcionais, Confiáveis, Usáveis e prazerosas.
 
 - **Responsivo**, adaptando-se facilmente em qualquer resolução de tela;
-- **SEO-friendly**, pois os mecanismos de busca conseguem encontrar o conteúdo da aplicação;
+- **SEO-friendly**, possibiitando que os mecanismos de busca consigam encontrar o conteúdo da aplicação;
 - **compartilhavel**, facilitando ao compartilhar conteúdo ao enviar o link para alguém.
 
 #### Arquitetura de informação
