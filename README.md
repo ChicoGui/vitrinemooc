@@ -37,9 +37,9 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 1. Possibilitar a inscrição ou cancelamento da inscrição de alunos, permitindo, ou não, o registro nos cursos através do WordPress e refletir as mudanças no Moodle;
 2. Criação de categorias de cursos no wordpress e Sincronização com as categorias criadas no moodle;
 
-#### Projetando tema wordpress
+### Projetando tema wordpress
 
-##### **UX Design**
+#### UX Design
 A idéia geral do projeto é proporcionar uma plataforma onde o usuário possa encontrar todas as informações necessárias sobre os cursos abertos oferecidos e como realizar os cursos, criando uma u que sejam Funcionais, Confiáveis, Usáveis e prazerosas.
 
 Optou-se pelo desenvolvimento de uma progressive web app entregando uma aplicação web com algumas característica importantes, sendo elas:
@@ -50,7 +50,7 @@ Optou-se pelo desenvolvimento de uma progressive web app entregando uma aplicaç
 - **Instalável**, possibilitando que a aplicação seja adicionada à *home screen* do celular, permitindo que os usuários salvem a aplicação os aplicativos que eles considerarem mais úteis ou importantes;
 - **compartilhavel**, facilitando ao compartilhar conteúdo ao enviar o link para alguém.
 
-###### **Arquitetura de informação**
+##### Arquitetura de informação
 Etapa onde se deseja garantir que as informações sejam acessíveis e fáceis para os usuários, organizando o conteúdo através de uma estruturação que possibilite aos usuários encontrarem tudo o que necessitam para conhecer os cursos, se inscreverem e cursarem. 
 
 Projetar uma estrutura para que de como as informações devem ser acessadas, apresentadas e conectadas. tendo como foco facilitar o acesso do usuário ao conteúdo no seu contexto de uso, porporcionando aos usuários uma visão clara de onde eles estão, o que  encontraram e os caminhos possíveis a seguir ao escolher determinado caminho de navegação.
@@ -71,9 +71,7 @@ Projetar uma estrutura para que de como as informações devem ser acessadas, ap
 	- computação;
 	- metodoligia de pesquisa;
 
-###### identidade Visual
+##### identidade Visual
 
-
-
-##### **Desenvolvimento**
+#### Desenvolvimento
 
