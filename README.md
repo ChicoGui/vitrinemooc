@@ -61,13 +61,13 @@ Projetar uma estrutura para que de como as informações devem ser acessadas, ap
 	- metodoligia de pesquisa;
 
 ##### **UI/UX Design**
-A idéia geral do projeto é proporcionar uma plataforma onde o usuário poderá encontrar todas as informações necessárias sobre os cursos, como se inscrever e navegar pela plataforma de cursos abertos.
+A idéia geral do projeto é proporcionar uma plataforma onde o usuário possa encontrar todas as informações necessárias sobre os cursos abertos oferecidos e como realizar os cursos.
 
-Dada a dinamicidade do acesso à informação e as tendências deste tempo, como escolha de projeto, optou-se pelo desenvolvimento de uma progressive web app, entregando uma aplicação web com algumas característica importantes, sendo elas:
+Optou-se pelo desenvolvimento de uma progressive web app entregando uma aplicação web com algumas característica importantes, sendo elas:
 
 - **Responsivo**, adaptando-se facilmente em qualquer resolução de tela;
 - **atualizado**, uma vez que o usuário não precisa atualizar a aplicação de tempos em tempos consimindo recursos do celuler Em casa acesso as informações estarão sempre atualizadas;
-- **SEO-friendly**, pois os mecanismos de busca conseguem encontrar o conteúdo dos aplicativos;
+- **SEO-friendly**, pois os mecanismos de busca conseguem encontrar o conteúdo da aplicação;
 - **Instalável**, possibilitando que a aplicação seja adicionada à *home screen* do celular, permitindo que os usuários salvem a aplicação os aplicativos que eles considerarem mais úteis ou importantes;
 - **compartilhavel**, facilitando ao compartilhar conteúdo ao enviar o link para alguém.
 	
