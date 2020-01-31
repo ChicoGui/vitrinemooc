@@ -50,9 +50,9 @@ Optou-se pelo desenvolvimento de uma progressive web app entregando uma aplicaç
 - **compartilhavel**, facilitando ao compartilhar conteúdo ao enviar o link para alguém.
 
 #### Arquitetura de informação
-Etapa onde se deseja garantir que as informações sejam acessíveis e fáceis para os usuários, organizando o conteúdo através de uma estruturação que possibilite aos usuários encontrarem tudo o que necessitam para conhecer os cursos, se inscreverem e cursarem. 
+Para garantir que as informações sejam acessíveis e fáceis para os usuários se faz necessário uma estruturação de conteúdo que possibilite aos usuários encontrarem tudo o que necessitam para conhecer os cursos, se inscreverem e cursarem. 
 
-Projetar uma estrutura para que de como as informações devem ser acessadas, apresentadas e conectadas. tendo como foco facilitar o acesso do usuário ao conteúdo no seu contexto de uso, porporcionando aos usuários uma visão clara de onde eles estão, o que  encontraram e os caminhos possíveis a seguir ao escolher determinado caminho de navegação.
+Projetar uma estrutura para que de como as informações devem ser acessadas, apresentadas e conectadas, para facilitar o acesso ao conteúdo no seu contexto de uso, porporcionando aos usuários uma visão clara de onde eles estão, o que encontraram e os caminhos possíveis a seguir ao escolher determinado caminho de navegação.
 
 - custom post types
 
@@ -65,10 +65,10 @@ Projetar uma estrutura para que de como as informações devem ser acessadas, ap
 - Taxonomias
 
 	Assim como podemos criar tipos de conteúdo personalizados, podemos criar taxanomias personalizadas e relacionarmos com tipos de conteúdo específicos, aumentando assim a organização do conteúdo.
-	- tecnolgias educacionais;
-	- ciências e matemática;
-	- computação;
-	- metodoligia de pesquisa;
+	- Tecnolgias educacionais;
+	- Ciências e matemática;
+	- Computação;
+	- Metodoligia de pesquisa;
 
 #### Identidade Visual
 
