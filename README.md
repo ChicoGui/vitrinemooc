@@ -50,7 +50,7 @@ Optou-se pelo desenvolvimento de uma progressive web app entregando uma aplicaç
 - **Instalável**, possibilitando que a aplicação seja adicionada à *home screen* do celular, permitindo que os usuários salvem a aplicação os aplicativos que eles considerarem mais úteis ou importantes;
 - **compartilhavel**, facilitando ao compartilhar conteúdo ao enviar o link para alguém.
 
-##### 1. Arquitetura de informação
+##### ARQUITETURA DE INFORMAÇÃO
 Etapa onde se deseja garantir que as informações sejam acessíveis e fáceis para os usuários, organizando o conteúdo através de uma estruturação que possibilite aos usuários encontrarem tudo o que necessitam para conhecer os cursos, se inscreverem e cursarem. 
 
 Projetar uma estrutura para que de como as informações devem ser acessadas, apresentadas e conectadas. tendo como foco facilitar o acesso do usuário ao conteúdo no seu contexto de uso, porporcionando aos usuários uma visão clara de onde eles estão, o que  encontraram e os caminhos possíveis a seguir ao escolher determinado caminho de navegação.
@@ -71,7 +71,7 @@ Projetar uma estrutura para que de como as informações devem ser acessadas, ap
 	- computação;
 	- metodoligia de pesquisa;
 
-##### 2. identidade Visual
+##### IDENTIDADE VISUAL
 
 #### Desenvolvimento
 
