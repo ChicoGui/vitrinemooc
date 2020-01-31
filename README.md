@@ -39,14 +39,10 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 
 ### Projetando tema wordpress
 
-A idéia geral do projeto é proporcionar uma plataforma onde o usuário possa encontrar todas as informações necessárias sobre os cursos abertos oferecidos e como realizar os cursos, criando uma u que sejam Funcionais, Confiáveis, Usáveis e prazerosas.
-
-Optou-se pelo desenvolvimento de uma progressive web app entregando uma aplicação web com algumas característica importantes, sendo elas:
+A idéia geral do projeto é proporcionar uma plataforma onde o usuário possa encontrar todas as informações necessárias sobre os cursos abertos oferecidos, proporcionando uma  Funcionais, Confiáveis, Usáveis e prazerosas.
 
 - **Responsivo**, adaptando-se facilmente em qualquer resolução de tela;
-- **atualizado**, uma vez que o usuário não precisa atualizar a aplicação de tempos em tempos consimindo recursos do celuler Em casa acesso as informações estarão sempre atualizadas;
 - **SEO-friendly**, pois os mecanismos de busca conseguem encontrar o conteúdo da aplicação;
-- **Instalável**, possibilitando que a aplicação seja adicionada à *home screen* do celular, permitindo que os usuários salvem a aplicação os aplicativos que eles considerarem mais úteis ou importantes;
 - **compartilhavel**, facilitando ao compartilhar conteúdo ao enviar o link para alguém.
 
 #### Arquitetura de informação
