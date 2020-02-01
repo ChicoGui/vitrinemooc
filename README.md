@@ -39,7 +39,7 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 
 ### Projetando tema wordpress
 
-A idéia geral do projeto é proporcionar uma plataforma onde o usuário possa encontrar todas as informações necessárias sobre os cursos abertos oferecidos, proporcionando uma  Funcionais, Confiáveis, Usáveis e prazerosas.
+A idéia geral do projeto é proporcionar uma plataforma onde o usuário possa encontrar todas as informações necessárias sobre os cursos abertos oferecidos.
 
 - **Responsivo**, adaptando-se facilmente em qualquer resolução de tela;
 - **SEO-friendly**, possibiitando que os mecanismos de busca consigam encontrar o conteúdo da aplicação;
