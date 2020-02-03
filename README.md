@@ -66,7 +66,7 @@ Definir uma estrutura de como as informações devam ser acessadas, apresentadas
 	- Computação;
 
 #### Identidade Visual
-Manter padrão visual na vitrine e as salas de aula do Moodle.
+Etapa responsável pela camada visual do projeto. Preocupou-se em manter um padrão visual na vitrine e as salas de aula do Moodle.
 
 - cores
 - navegação
