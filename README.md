@@ -64,23 +64,28 @@ Definir uma estrutura de como as informações devam ser acessadas, apresentadas
 
 #### Identidade Visual
 Etapa responsável pela camada visual do projeto. Preocupou-se em manter um padrão visual na vitrine e as salas de aula do Moodle.
-- Navegação;
+- Navegação
+
 	Criar um padrão de navegação tanto para a vitrine quanto para o AVA(Ambiente Virtual de Aprendizagem) é de suma importância para que o usuário consiga compreender onde ele se encontre e navegue pela plataforma de uma maneira amigável, consistente e objetiva.
-- Tipografia;
+- Tipografia
+
 	Apesar dos cursos se basearem em vídeos, a escolha de tipografia nas plataformas ajudam que o aluno identifique a hierarquia de informação e crie/identifique padrões no conteúdo;
-- Iconografia;
+- Iconografia
+
 	A escolha de bons elementos iconográficos, que sejam universais e legiveis, auxilia na identificação de conteúdos e elementos nas páginas tanto da vitrine quanto no Ava;
 
 ### Desenvolvimento
 O tema "Vitrine Mooc" foi pensado para ser de fácil customização e inserção de conteúdo e será composdto por apenas um modelo/template de página, a index, e nela serão adcionados, via painel administrativo, os blocos de conteúdo, podem ser inseridos em qualquer posição ou ordem da página.
 
 **Widgets:**
-- Banner;
+- Banner
+
 	Agilizar a inserção de imagens e legendas; 
 	- Escolher imagem da web(url) ou do computador;
 	- Legenda com 2 opções de formatação.
 
-- Cursos;
+- Cursos
+
 	Criar uma listagem de cursos e filtros por taxonomias;
 	- Inserir thumbnail;
 	- Nome;
@@ -92,9 +97,11 @@ O tema "Vitrine Mooc" foi pensado para ser de fácil customização e inserção
 	Possibilitar uma fácil inserção de perguntas frequentes e suas respostas;
 
 - Como funciona
+
 	Inserção de informações relevantes sobre a plataforma;
 
 - Ferramentas
+
 	Mostrar as ferramentas disponíveis para a realização dos cursos;
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
