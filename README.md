@@ -50,7 +50,7 @@ Para garantir que as informações sejam acessíveis e fáceis para os usuários
 
 Definir uma estrutura de como as informações devam ser acessadas, apresentadas e conectadas, facilitando o acesso ao conteúdo no seu contexto de uso, porporcionando aos usuários uma visão clara de onde eles estão e os caminhos possíveis a seguir ao escolher determinado caminho de navegação.
 
-- custom post types
+- tipos de conteúdo
 
 	O WordPress já disponibiliza alguns tipos padrões de conteúdo, mas para ampliar a subdivisão e suas relações, a criação de custom post types facilita a administração de conteúdo e o design de front-end.
 
@@ -73,7 +73,9 @@ Etapa responsável pela camada visual do projeto. Preocupou-se em manter um padr
 - Cores;
 
 ### Desenvolvimento
+
 O tema "Vitrine Mooc" foi pensado para ser de fácil customização e inserção de conteúdo e será composdto por apenas um modelo/template de página, a index, e nela serão adcionados, via painel administrativo, os blocos de conteúdo, podem ser inseridos em qualquer posição ou ordem da página.
+
 - widget Banner;
 
 	inserção de imagens e legendas;
@@ -85,6 +87,8 @@ O tema "Vitrine Mooc" foi pensado para ser de fácil customização e inserção
 - widget F.A.Q;
 
 	inserção de perguntas e respostas;
+
+
 
 
 
