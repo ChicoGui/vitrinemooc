@@ -61,8 +61,8 @@ Definir uma estrutura de como as informações devam ser acessadas, apresentadas
 - Taxonomias
 
 	Assim como podemos criar tipos de conteúdo personalizados, podemos criar taxanomias personalizadas e relacionarmos com tipos de conteúdo específicos, aumentando assim a organização do conteúdo.
-	- Tecnolgias educacionais;
-	- Ciências e matemática;
+	- Tecnolgias Educacionais;
+	- Ciências e Matemática;
 	- Computação;
 
 #### Identidade Visual
@@ -74,6 +74,8 @@ Etapa responsável pela camada visual do projeto. Preocupou-se em manter um padr
 - iconografia;
 
 ### Desenvolvimento
+
+
 
 
 
