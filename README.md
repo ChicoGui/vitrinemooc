@@ -66,6 +66,12 @@ Definir uma estrutura de como as informações devam ser acessadas, apresentadas
 	- Computação;
 
 #### Identidade Visual
+Manter padrão visual na vitrine e as salas de aula do Moodle.
+	- cores
+	- navegação
+	- tipografia
+	- iconografia
+
 
 ### Desenvolvimento
 
