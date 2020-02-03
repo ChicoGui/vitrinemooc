@@ -8,28 +8,24 @@ Trabalho em desenvolvimento dentro da Coordenadoria Geral De Tecnologias Educaci
 
 ### **Lançamento MVP**
 
-Para dar início ao projeto optou-se por lançar um MVP como canal de acesso para os cursos MOOC oferecidos, monstrando as facilidades e benefícios da realização dos cursos e as ferramentas disponíveis para os alunos. Após o lançamento da plataforma e com interações dos usuários, deu-se início
+Para dar início ao projeto optou-se por lançar um MVP como canal de acesso para os cursos MOOC oferecidos, monstrando as facilidades e benefícios da realização dos cursos e as ferramentas disponíveis para os alunos.
 
 **Tecnologias aplicadas:** Bootstrap, JavaScript, PHP.
 
 ![Alt ou título da imagem](/vitrine_small.png)
 
-### **Integração Moodle - Wordpress**
-
-Após o lançamento da Vitrine deu-se início ao processo de integração com o Moodle, plataforma dos ambientes virtuais de aprendizagem, com o Wordpress.
+### Integração Moodle - Wordpress
+Após o lançamento da Vitrine deu-se início ao processo de integração o LMS(Learning Management System) Moodle, plataforma dos ambientes virtuais de aprendizagem, com o CMS (content management system) Wordpress.
 
 Nesta parte do projeto buscou-se otimizar e dar autonomia para os professores na inserção de conteúdo atraves de um painel admnistrativo de fácil uso.
 
 #### Por que o moodle?
-
 O moodle é um software multiplataforma, livre e gratuito de apoio à aprendizagem. Pode ser utilizado não só como ambiente de suporte à Educação a Distância mas também como apoio a cursos presenciais, formação de grupos de estudo, treinamento de professores e equipes.
 
 #### Por que o wordpress?
-
 Assim como o moodle, o WordPress é livre e gratuito, possui uma comunidade grande e ativa, além de oferecer uma interface de uso simples e amigável quando comparada à outros sistemas de gerenciamento de conteúdo.
 
 #### Como integrar as duas plataformas?
-
 Para integrar o Moodle com o Wordpress adotou-se o plugin [Edwiser Bridge](https://edwiser.org/bridge/) por ser de fácil utilização, customisável, dar suporte para outros idiomas e ter uma versão grátis.
 
 Podemos destacar 2 funcionalidades importantes para o nosso projeto:
@@ -38,7 +34,6 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 2. Criação de categorias de cursos no wordpress e Sincronização com as categorias criadas no moodle;
 
 ### Projetando tema wordpress
-
 A idéia geral do projeto é proporcionar uma plataforma onde o usuário possa encontrar todas as informações necessárias sobre os cursos abertos oferecidos.
 
 - **Responsivo**, adaptando-se facilmente em qualquer resolução de tela;
@@ -57,8 +52,10 @@ Definir uma estrutura de como as informações devam ser acessadas, apresentadas
 	Inicialmente foram criados 2 Custom Post Types: 
 	- Cursos;
 	- F.A.Q;
+	- Ferramentas;
+	- Como Funciona;
 	
-- Taxonomias
+- Categorização de Cursos
 
 	Assim como podemos criar tipos de conteúdo personalizados, podemos criar taxanomias personalizadas e relacionarmos com tipos de conteúdo específicos, aumentando assim a organização do conteúdo.
 	- Tecnolgias Educacionais;
@@ -68,25 +65,41 @@ Definir uma estrutura de como as informações devam ser acessadas, apresentadas
 #### Identidade Visual
 Etapa responsável pela camada visual do projeto. Preocupou-se em manter um padrão visual na vitrine e as salas de aula do Moodle.
 - Navegação;
+	Criar um padrão de navegação tanto para a vitrine quanto para o AVA(Ambiente Virtual de Aprendizagem) é de suma importância para que o usuário consiga compreender onde ele se encontre e navegue pela plataforma de uma maneira amigável, consistente e objetiva.
 - Tipografia;
+	Apesar dos cursos se basearem em vídeos, a escolha de tipografia nas plataformas ajudam que o aluno identifique a hierarquia de informação e crie/identifique padrões no conteúdo;
 - Iconografia;
-- Cores;
+	A escolha de bons elementos iconográficos, que sejam universais e legiveis, auxilia na identificação de conteúdos e elementos nas páginas tanto da vitrine quanto no Ava;
 
 ### Desenvolvimento
-
 O tema "Vitrine Mooc" foi pensado para ser de fácil customização e inserção de conteúdo e será composdto por apenas um modelo/template de página, a index, e nela serão adcionados, via painel administrativo, os blocos de conteúdo, podem ser inseridos em qualquer posição ou ordem da página.
 
-- widget Banner;
+**Widgets:**
+- Banner;
+	Agilizar a inserção de imagens e legendas; 
+	- Escolher imagem da web(url) ou do computador;
+	- Legenda com 2 opções de formatação.
 
-	inserção de imagens e legendas;
+- Cursos;
+	Criar uma listagem de cursos e filtros por taxonomias;
+	- Inserir thumbnail;
+	- Nome;
+	- Descrição;
+	- url do curso
 
-- widget Cursos;
+- F.A.Q;
 
-	listagem de cursos e filtros por taxonomias;
+	Possibilitar uma fácil inserção de perguntas frequentes e suas respostas;
 
-- widget F.A.Q;
+- Como funciona
+	Inserção de informações relevantes sobre a plataforma;
 
-	inserção de perguntas e respostas;
+- Ferramentas
+	Mostrar as ferramentas disponíveis para a realização dos cursos;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+
+
+
 
 
 
