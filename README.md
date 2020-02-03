@@ -81,8 +81,9 @@ O tema "Vitrine Mooc" foi pensado para ser de fácil customização e inserção
 - widget Cursos;
 
 	listagem de cursos e filtros por taxonomias;
-	
+
 - widget F.A.Q;
+
 	inserção de perguntas e respostas;
 
 
