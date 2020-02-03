@@ -74,8 +74,9 @@ Etapa responsável pela camada visual do projeto. Preocupou-se em manter um padr
 - Cores;
 
 ### Desenvolvimento
-
-
-
+O tema "Vitrine Mooc" foi pensado para ser de fácil customização e inserção de conteúdo. Sendo assim todos os blocos de conteúdo da página serão widgets que podem ser inseridos em qualquer posição ou ordem da página.
+- widget banner;
+- widget cursos;
+- widget F.A.Q;
 
 
