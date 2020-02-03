@@ -68,11 +68,12 @@ Definir uma estrutura de como as informações devam ser acessadas, apresentadas
 #### Identidade Visual
 Etapa responsável pela camada visual do projeto. Preocupou-se em manter um padrão visual na vitrine e as salas de aula do Moodle.
 
-- cores
-- navegação
-- tipografia
-- iconografia
+- cores;
+- navegação;
+- tipografia;
+- iconografia;
 
 ### Desenvolvimento
+
 
 
