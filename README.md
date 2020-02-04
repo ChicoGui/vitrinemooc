@@ -105,16 +105,16 @@ Possibilitar uma fácil inserção de perguntas frequentes e suas respostas.
 
 ##### COMO FUNCIONA
 Inserção de informações relevantes sobre a plataforma.
-- icone
-- nome
-- descrição
+- icone;
+- nome;
+- descrição;
 - link;
 
 ##### FERRAMENTAS
-Mostrar as ferramentas disponíveis para a realização dos cursos.
-- icone
-- nome
-- descrição
+Mostrar as ferramentas disponíveis para a realização dos cursos
+- icone;
+- nome;
+- descrição;
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
