@@ -78,11 +78,11 @@ A escolha de bons elementos iconográficos, que sejam universais e legiveis, aux
 O tema "Vitrine Mooc" foi pensado para ser de fácil customização e inserção de conteúdo e será composdto por apenas um modelo/template de página, a index, e nela serão adcionados, via painel administrativo, os blocos de conteúdo, podem ser inseridos em qualquer posição ou ordem da página.
 
 Inicialmentente essas são os arquivos do tema:
-- style.css
-- index.php
-- header.php
-- footer.php
-- functions.php
+- style.css;
+- index.php;
+- header.php;
+- footer.php;
+- functions.php;
 
 
 #### WIDGETS
