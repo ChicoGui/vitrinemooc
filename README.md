@@ -46,7 +46,6 @@ Para garantir que as informações sejam acessíveis e fáceis para os usuários
 Definir uma estrutura de como as informações devam ser acessadas, apresentadas e conectadas, facilitando o acesso ao conteúdo no seu contexto de uso, porporcionando aos usuários uma visão clara de onde eles estão e os caminhos possíveis a seguir ao escolher determinado caminho de navegação.
 
 ##### TIPOS DE CONTEÚDO
-
 O WordPress já disponibiliza alguns tipos padrões de conteúdo, mas para ampliar a subdivisão e suas relações, a criação de custom post types facilita a administração de conteúdo e o design de front-end.
 
 Inicialmente foram criados 4 Custom Post Types: 
@@ -56,7 +55,6 @@ Inicialmente foram criados 4 Custom Post Types:
 - Como Funciona;
 	
 ##### ORGANIZAÇÃO DE CONTEÚDO
-
 Assim como podemos criar tipos de conteúdo personalizados, podemos criar taxanomias personalizadas e relacionarmos com tipos de conteúdo específicos, aumentando assim a organização do conteúdo.
 
 Para a categorização do custom post type *"Cursos"* incialmente escolheu-se 3 taxonomias iniciais, sendo elas:
@@ -73,15 +71,12 @@ Para a categorização das perguntas frequentes, *"F.A.Q"* incialmente escolheu-
 Etapa responsável pela camada visual do projeto. Preocupou-se em manter um padrão visual na vitrine e as salas de aula do Moodle.
 
 ##### NAVEGAÇÃO
-
 Criar um padrão de navegação tanto para a vitrine quanto para o AVA(Ambiente Virtual de Aprendizagem) é de suma importância para que o usuário consiga compreender onde ele se encontre e navegue pela plataforma de uma maneira amigável, consistente e objetiva.
 
 ##### TIPOGRAFIA
-
 Apesar dos cursos se basearem em vídeos, a escolha de tipografia nas plataformas ajudam que o aluno identifique a hierarquia de informação e crie/identifique padrões no conteúdo;
 
 ##### ICONOGRAFIA
-
 A escolha de bons elementos iconográficos, que sejam universais e legiveis, auxilia na identificação de conteúdos e elementos nas páginas tanto da vitrine quanto no Ava;
 
 ### DESENVOLVIMENTO
@@ -89,13 +84,11 @@ O tema "Vitrine Mooc" foi pensado para ser de fácil customização e inserção
 
 #### WIDGETS
 ##### BANNER
-
 Agilizar a inserção de imagens e legendas; 
 - Escolher imagem da web(url) ou do computador;
 - Legenda com 2 opções de formatação.
 
 ##### CURSOS
-
 Criar uma listagem de cursos e filtros por taxonomias;
 - Inserir thumbnail;
 - Nome;
@@ -103,15 +96,12 @@ Criar uma listagem de cursos e filtros por taxonomias;
 - url do curso
 
 ##### F.A.Q;
-
 Possibilitar uma fácil inserção de perguntas frequentes e suas respostas;
 
 ##### COMO FUNCIONA
-
 Inserção de informações relevantes sobre a plataforma;
 
 ##### FERRAMENTAS
-
 Mostrar as ferramentas disponíveis para a realização dos cursos;
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
