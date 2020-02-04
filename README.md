@@ -45,28 +45,28 @@ Para garantir que as informações sejam acessíveis e fáceis para os usuários
 
 Definir uma estrutura de como as informações devam ser acessadas, apresentadas e conectadas, facilitando o acesso ao conteúdo no seu contexto de uso, porporcionando aos usuários uma visão clara de onde eles estão e os caminhos possíveis a seguir ao escolher determinado caminho de navegação.
 
-- tipos de conteúdo
+##### tipos de conteúdo
 
-	O WordPress já disponibiliza alguns tipos padrões de conteúdo, mas para ampliar a subdivisão e suas relações, a criação de custom post types facilita a administração de conteúdo e o design de front-end.
+O WordPress já disponibiliza alguns tipos padrões de conteúdo, mas para ampliar a subdivisão e suas relações, a criação de custom post types facilita a administração de conteúdo e o design de front-end.
 
-	Inicialmente foram criados 4 Custom Post Types: 
+Inicialmente foram criados 4 Custom Post Types: 
 	- Cursos;
 	- F.A.Q;
 	- Ferramentas;
 	- Como Funciona;
 	
-- organização de conteúdo
+##### organização de conteúdo
 
-	Assim como podemos criar tipos de conteúdo personalizados, podemos criar taxanomias personalizadas e relacionarmos com tipos de conteúdo específicos, aumentando assim a organização do conteúdo.
+Assim como podemos criar tipos de conteúdo personalizados, podemos criar taxanomias personalizadas e relacionarmos com tipos de conteúdo específicos, aumentando assim a organização do conteúdo.
 
-	Para a categorização do custom post type *"Cursos"* incialmente escolheu-se 3 taxonomias iniciais, sendo elas:
-	- Tecnolgias Educacionais;
-	- Ciências e Matemática;
-	- Computação;
+Para a categorização do custom post type *"Cursos"* incialmente escolheu-se 3 taxonomias iniciais, sendo elas:
+- Tecnolgias Educacionais;
+- Ciências e Matemática;
+- Computação;
 
-	Para a categorização das perguntas frequentes, *"F.A.Q"*incialmente escolheu-se 2 taxonomias iniciais, sendo elas:
-	- Cadastro;
-	- Certificação;
+Para a categorização das perguntas frequentes, *"F.A.Q"*incialmente escolheu-se 2 taxonomias iniciais, sendo elas:
+- Cadastro;
+- Certificação;
 
 
 #### Identidade Visual
