@@ -50,10 +50,11 @@ O WordPress já disponibiliza alguns tipos padrões de conteúdo, mas para ampli
 
 Inicialmente foram criados 4 Custom Post Types: 
 - Cursos;
-- F.A.Q;
-- Ferramentas;
 - Como Funciona;
-	
+- Ferramentas;
+- Área do estudante;
+- F.A.Q;	
+
 ##### ORGANIZAÇÃO DE CONTEÚDO
 Assim como podemos criar tipos de conteúdo personalizados, podemos criar taxanomias personalizadas e relacionarmos com tipos de conteúdo específicos, aumentando assim a organização do conteúdo.
 
