@@ -79,6 +79,12 @@ O tema "Vitrine Mooc" foi pensado para ser de fácil customização e inserção
 
 #### ESTRUTURAÇÃO DO TEMA WORDPRESS
 
+- style.css
+- index.php
+- header.php
+- footer.php
+- functions.php
+
 
 #### WIDGETS
 ##### BANNER
