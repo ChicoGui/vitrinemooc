@@ -17,9 +17,9 @@ Para dar início ao projeto optou-se por lançar um MVP como canal de acesso par
 ![Alt ou título da imagem](/vitrine_small.png)
 
 ### **INTEGRAÇÃO MOODLE-WORDPRESS**
-Após o lançamento da Vitrine deu-se início ao processo de integração do LMS(Learning Management System) Moodle, plataforma dos ambientes virtuais de aprendizagem, com o CMS (content management system) Wordpress, plataformas para publicação de conteúdo.
+Após o lançamento da Vitrine deu-se início ao processo de integração do LMS(Learning Management System) Moodle, plataforma dos ambientes virtuais de aprendizagem, com o CMS (content management system) Wordpress, plataforma para publicação de conteúdo.
 
-Nesta parte do projeto buscou-se otimizar e dar autonomia para os professores na inserção de conteúdo atraves de um painel admnistrativo de fácil uso.
+Nesta parte do projeto buscou-se otimizar e dar autonomia para os professores/admin na inserção e atualização de conteúdo atraves de um painel admnistrativo de fácil uso.
 
 #### POR QUE MOODOLE?
 O moodle é um software multiplataforma, livre e gratuito de apoio à aprendizagem. Pode ser utilizado não só como ambiente de suporte à Educação a Distância mas também como apoio a cursos presenciais, formação de grupos de estudo, treinamento de professores e equipes.
