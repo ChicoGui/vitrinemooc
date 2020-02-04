@@ -87,25 +87,25 @@ Inicialmentente essas são os arquivos do tema:
 
 #### WIDGETS
 ##### BANNER
-Agilizar a inserção de imagens e legendas; 
+Agilizar a inserção de imagens e legendas.
 - Escolher imagem da web(url) ou do computador;
 - Legenda com 2 opções de formatação.
 
 ##### CURSOS
-Criar uma listagem de cursos e filtros por taxonomias;
+Criar uma listagem de cursos e filtros por taxonomias.
 - Inserir thumbnail;
 - Nome;
 - Descrição;
 - Url do curso;
 
 ##### F.A.Q
-Possibilitar uma fácil inserção de perguntas frequentes e suas respostas;
+Possibilitar uma fácil inserção de perguntas frequentes e suas respostas.
 
 ##### COMO FUNCIONA
-Inserção de informações relevantes sobre a plataforma;
+Inserção de informações relevantes sobre a plataforma.
 
 ##### FERRAMENTAS
-Mostrar as ferramentas disponíveis para a realização dos cursos;
+Mostrar as ferramentas disponíveis para a realização dos cursos.
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
 
