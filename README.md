@@ -40,7 +40,7 @@ A idéia geral do projeto é proporcionar uma plataforma onde o usuário possa e
 
 - **Responsivo**, adaptando-se facilmente em qualquer resolução de tela;
 - **SEO-friendly**, possibiitando que os mecanismos de busca consigam encontrar o conteúdo da aplicação;
-- **compartilhavel**, facilitando ao compartilhar conteúdo ao enviar o link para alguém.
+- **compartilhavel**, facilitando ao compartilhar conteúdo ao enviar o link para alguém;
 
 #### ARQUITETURA DE INFORMAÇÃO
 Para garantir que as informações sejam acessíveis e fáceis para os usuários se faz necessário uma estruturação de conteúdo que possibilite aos usuários encontrarem tudo para conhecer os cursos, se inscreverem e cursarem. 
@@ -84,7 +84,7 @@ Inicialmentente essas são os arquivos do tema:
 - **index.php:** responsável pela exibição dos conteúdos na tela;
 - **header.php:** informações da página e navegação;
 - **footer.php:** template do rodapé da página;
-- **functions.php:** Arquivo responsável por conter as funcionalidades do tema.
+- **functions.php:** Arquivo responsável por conter as funcionalidades do tema;
 
 O tema da virtine de cursos abertos foi pensado para ser de fácil customização e inserção de conteúdo. Será composto por apenas um modelo/template de página, a index, e nela serão adcionados, via painel administrativo, os blocos de conteúdo, **widgets**, podem ser inseridos em qualquer posição ou ordem de exibição na tela. 
 
@@ -95,12 +95,12 @@ Para proporcionar a construção deuma página responsiva e modular inicialmente
 Agilizar a inserção de imagens de destaque e legendas.
 
 Serão dois tipos de banner:
-- banner com contadores(matriculas, horas, etc)
-- banner estático
+- banner com contadores(matriculas, horas, etc);
+- banner estático;
 
 Ambos contarão com os seguintes campos:
 - Escolher imagem da web(url) ou do computador;
-- Legenda com 2 opções de formatação.
+- Legenda com 2 opções de formatação;
 
 ##### CURSOS
 Criar uma listagem de cursos e filtros por taxonomias.
@@ -108,7 +108,7 @@ Criar uma listagem de cursos e filtros por taxonomias.
 - Nome;
 - Descrição;
 - Url do curso;
-- definir taxonomia(s)
+- definir taxonomia(s);
 
 ##### COMO FUNCIONA
 Inserção de informações relevantes sobre a plataforma.
@@ -138,7 +138,7 @@ Sessão destinada a criação de contas ou login do usuário.
 ##### F.A.Q
 Possibilitar uma fácil inserção de perguntas frequentes e suas respostas.
 - Título pergunta;
-- Resposta
+- Resposta;
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
