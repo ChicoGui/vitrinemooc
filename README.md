@@ -62,11 +62,6 @@ Para a categorização do custom post type *"Cursos"* incialmente escolheu-se 3 
 - Ciências e Matemática;
 - Computação;
 
-Para a categorização das perguntas frequentes, *"F.A.Q"* incialmente escolheu-se 2 taxonomias iniciais, sendo elas:
-- Cadastro;
-- Certificação;
-
-
 #### IDENTIDADE VISUAL
 Etapa responsável pela camada visual do projeto. Preocupou-se em manter um padrão visual na vitrine e as salas de aula do Moodle.
 
