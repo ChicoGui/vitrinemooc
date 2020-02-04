@@ -90,6 +90,12 @@ Para proporcionar a construção deuma página responsiva e modular inicialmente
 #### WIDGETS ou SESSÕES DE CONTEÚDO
 ##### BANNER
 Agilizar a inserção de imagens de destaque e legendas.
+
+Serão dois tipode de banner:
+- banner com contadores(matriculas, horas, etc)
+- banner estático
+
+Ambos contarão com os seguintes campos:
 - Escolher imagem da web(url) ou do computador;
 - Legenda com 2 opções de formatação.
 
