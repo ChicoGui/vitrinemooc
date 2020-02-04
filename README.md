@@ -64,34 +64,37 @@ Para a categorização do custom post type *"Cursos"* incialmente escolheu-se 3 
 - Ciências e Matemática;
 - Computação;
 
-Para a categorização das perguntas frequentes, *"F.A.Q"*incialmente escolheu-se 2 taxonomias iniciais, sendo elas:
+Para a categorização das perguntas frequentes, *"F.A.Q"* incialmente escolheu-se 2 taxonomias iniciais, sendo elas:
 - Cadastro;
 - Certificação;
 
 
 #### IDENTIDADE VISUAL
 Etapa responsável pela camada visual do projeto. Preocupou-se em manter um padrão visual na vitrine e as salas de aula do Moodle.
-- Navegação
 
-	Criar um padrão de navegação tanto para a vitrine quanto para o AVA(Ambiente Virtual de Aprendizagem) é de suma importância para que o usuário consiga compreender onde ele se encontre e navegue pela plataforma de uma maneira amigável, consistente e objetiva.
-- Tipografia
+##### Navegação
 
-	Apesar dos cursos se basearem em vídeos, a escolha de tipografia nas plataformas ajudam que o aluno identifique a hierarquia de informação e crie/identifique padrões no conteúdo;
-- Iconografia
+Criar um padrão de navegação tanto para a vitrine quanto para o AVA(Ambiente Virtual de Aprendizagem) é de suma importância para que o usuário consiga compreender onde ele se encontre e navegue pela plataforma de uma maneira amigável, consistente e objetiva.
+
+##### Tipografia
+
+Apesar dos cursos se basearem em vídeos, a escolha de tipografia nas plataformas ajudam que o aluno identifique a hierarquia de informação e crie/identifique padrões no conteúdo;
+
+##### Iconografia
 
 	A escolha de bons elementos iconográficos, que sejam universais e legiveis, auxilia na identificação de conteúdos e elementos nas páginas tanto da vitrine quanto no Ava;
 
 ### DESENVOLVIMENTO
 O tema "Vitrine Mooc" foi pensado para ser de fácil customização e inserção de conteúdo e será composdto por apenas um modelo/template de página, a index, e nela serão adcionados, via painel administrativo, os blocos de conteúdo, podem ser inseridos em qualquer posição ou ordem da página.
 
-**Widgets:**
-- Banner
+#### Widgets:**
+##### Banner
 
 	Agilizar a inserção de imagens e legendas; 
 	- Escolher imagem da web(url) ou do computador;
 	- Legenda com 2 opções de formatação.
 
-- Cursos
+##### Cursos
 
 	Criar uma listagem de cursos e filtros por taxonomias;
 	- Inserir thumbnail;
@@ -99,15 +102,15 @@ O tema "Vitrine Mooc" foi pensado para ser de fácil customização e inserção
 	- Descrição;
 	- url do curso
 
-- F.A.Q;
+##### F.A.Q;
 
 	Possibilitar uma fácil inserção de perguntas frequentes e suas respostas;
 
-- Como funciona
+##### Como funciona
 
 	Inserção de informações relevantes sobre a plataforma;
 
-- Ferramentas
+##### Ferramentas
 
 	Mostrar as ferramentas disponíveis para a realização dos cursos;
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
