@@ -8,7 +8,9 @@ Trabalho em desenvolvimento dentro da Coordenadoria Geral De Tecnologias Educaci
 
 ### **LANÇAMENTO MVP**
 
-Para dar início ao projeto optou-se por lançar um MVP como canal de acesso para os cursos MOOC oferecidos, monstrando as facilidades e benefícios da realização dos cursos e as ferramentas disponíveis para os alunos.
+Seguindo uma tendência mundial na oferta de cursos 100% on-line, no formato MOOC (do inglês, Massive Open Online Courses), a idéia de criar uma plataforma de sursos abertos do Ifes surgiu.
+
+Para dar início ao projeto optou-se por lançar um MVP como canal de acesso para os cursos oferecidos, monstrando as facilidades e benefícios da realização dos cursos e as ferramentas disponíveis para os alunos.
 
 **Tecnologias aplicadas:** Bootstrap, JavaScript, PHP.
 
