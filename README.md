@@ -17,7 +17,7 @@ Para dar início ao projeto optou-se por lançar um MVP como canal de acesso par
 ![Alt ou título da imagem](/vitrine_small.png)
 
 ### **INTEGRAÇÃO MOODLE-WORDPRESS**
-Após o lançamento da Vitrine deu-se início ao processo de integração o LMS(Learning Management System) Moodle, plataforma dos ambientes virtuais de aprendizagem, com o CMS (content management system) Wordpress.
+Após o lançamento da Vitrine deu-se início ao processo de integração do LMS(Learning Management System) Moodle, plataforma dos ambientes virtuais de aprendizagem, com o CMS (content management system) Wordpress, plataformas para publicação de conteúdo.
 
 Nesta parte do projeto buscou-se otimizar e dar autonomia para os professores na inserção de conteúdo atraves de um painel admnistrativo de fácil uso.
 
