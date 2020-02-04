@@ -108,11 +108,6 @@ Criar uma listagem de cursos e filtros por taxonomias.
 - Url do curso;
 - definir taxonomia(s)
 
-##### F.A.Q
-Possibilitar uma fácil inserção de perguntas frequentes e suas respostas.
-- Título pergunta;
-- Resposta
-
 ##### COMO FUNCIONA
 Inserção de informações relevantes sobre a plataforma.
 - Icone;
@@ -125,6 +120,23 @@ Mostrar as ferramentas disponíveis para a realização dos cursos.
 - Icone;
 - Nome;
 - Descrição;
+
+##### ÁREA DO ESTUDANTE
+Sessão destinada a criação de contas ou login do usuário.
+- Primeira Vez
+	- texto;
+	- botão para criar conta;
+- Login
+	- Texto;
+	- Nome do usuário
+	- Senha;
+	- Link para "esqueceu usuário ou senha?";
+
+
+##### F.A.Q
+Possibilitar uma fácil inserção de perguntas frequentes e suas respostas.
+- Título pergunta;
+- Resposta
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
