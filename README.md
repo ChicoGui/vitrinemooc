@@ -50,10 +50,10 @@ Definir uma estrutura de como as informações devam ser acessadas, apresentadas
 O WordPress já disponibiliza alguns tipos padrões de conteúdo, mas para ampliar a subdivisão e suas relações, a criação de custom post types facilita a administração de conteúdo e o design de front-end.
 
 Inicialmente foram criados 4 Custom Post Types: 
-	- Cursos;
-	- F.A.Q;
-	- Ferramentas;
-	- Como Funciona;
+- Cursos;
+- F.A.Q;
+- Ferramentas;
+- Como Funciona;
 	
 ##### ORGANIZAÇÃO DE CONTEÚDO
 
@@ -72,15 +72,15 @@ Para a categorização das perguntas frequentes, *"F.A.Q"* incialmente escolheu-
 #### IDENTIDADE VISUAL
 Etapa responsável pela camada visual do projeto. Preocupou-se em manter um padrão visual na vitrine e as salas de aula do Moodle.
 
-##### Navegação
+##### NAVEGAÇÃO
 
 Criar um padrão de navegação tanto para a vitrine quanto para o AVA(Ambiente Virtual de Aprendizagem) é de suma importância para que o usuário consiga compreender onde ele se encontre e navegue pela plataforma de uma maneira amigável, consistente e objetiva.
 
-##### Tipografia
+##### TIPOGRAFIA
 
 Apesar dos cursos se basearem em vídeos, a escolha de tipografia nas plataformas ajudam que o aluno identifique a hierarquia de informação e crie/identifique padrões no conteúdo;
 
-##### Iconografia
+##### ICONOGRAFIA
 
 A escolha de bons elementos iconográficos, que sejam universais e legiveis, auxilia na identificação de conteúdos e elementos nas páginas tanto da vitrine quanto no Ava;
 
