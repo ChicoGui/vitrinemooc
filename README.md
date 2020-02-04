@@ -49,18 +49,25 @@ Definir uma estrutura de como as informações devam ser acessadas, apresentadas
 
 	O WordPress já disponibiliza alguns tipos padrões de conteúdo, mas para ampliar a subdivisão e suas relações, a criação de custom post types facilita a administração de conteúdo e o design de front-end.
 
-	Inicialmente foram criados 2 Custom Post Types: 
+	Inicialmente foram criados 4 Custom Post Types: 
 	- Cursos;
 	- F.A.Q;
 	- Ferramentas;
 	- Como Funciona;
 	
-- Categorização de Cursos
+- organização de conteúdo
 
 	Assim como podemos criar tipos de conteúdo personalizados, podemos criar taxanomias personalizadas e relacionarmos com tipos de conteúdo específicos, aumentando assim a organização do conteúdo.
+
+	Para a categorização do custom post type *"Cursos"* incialmente escolheu-se 3 taxonomias iniciais, sendo elas:
 	- Tecnolgias Educacionais;
 	- Ciências e Matemática;
 	- Computação;
+
+	Para a categorização das perguntas frequentes, *"F.A.Q"*incialmente escolheu-se 2 taxonomias iniciais, sendo elas:
+	- Cadastro;
+	- Certificação;
+
 
 #### Identidade Visual
 Etapa responsável pela camada visual do projeto. Preocupou-se em manter um padrão visual na vitrine e as salas de aula do Moodle.
