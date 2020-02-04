@@ -91,7 +91,7 @@ Para proporcionar a construção deuma página responsiva e modular inicialmente
 ##### BANNER
 Agilizar a inserção de imagens de destaque e legendas.
 
-Serão dois tipode de banner:
+Serão dois tipos de banner:
 - banner com contadores(matriculas, horas, etc)
 - banner estático
 
@@ -105,6 +105,7 @@ Criar uma listagem de cursos e filtros por taxonomias.
 - Nome;
 - Descrição;
 - Url do curso;
+- definir taxonomia(s)
 
 ##### F.A.Q
 Possibilitar uma fácil inserção de perguntas frequentes e suas respostas.
