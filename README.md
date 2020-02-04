@@ -14,7 +14,7 @@ Para dar início ao projeto optou-se por lançar um MVP como canal de acesso par
 
 ![Alt ou título da imagem](/vitrine_small.png)
 
-### INTEGRAÇÃO MOODLE-WORDPRESS
+### **INTEGRAÇÃO MOODLE-WORDPRESS**
 Após o lançamento da Vitrine deu-se início ao processo de integração o LMS(Learning Management System) Moodle, plataforma dos ambientes virtuais de aprendizagem, com o CMS (content management system) Wordpress.
 
 Nesta parte do projeto buscou-se otimizar e dar autonomia para os professores na inserção de conteúdo atraves de um painel admnistrativo de fácil uso.
@@ -33,7 +33,7 @@ Podemos destacar 2 funcionalidades importantes para o nosso projeto:
 1. Possibilitar a inscrição ou cancelamento da inscrição de alunos, permitindo, ou não, o registro nos cursos através do WordPress e refletir as mudanças no Moodle;
 2. Criação de categorias de cursos no wordpress e Sincronização com as categorias criadas no moodle;
 
-### PROJETANDO TEMA WORDPRESS
+### **PROJETANDO TEMA WORDPRESS**
 A idéia geral do projeto é proporcionar uma plataforma onde o usuário possa encontrar todas as informações necessárias sobre os cursos abertos oferecidos.
 
 - **Responsivo**, adaptando-se facilmente em qualquer resolução de tela;
@@ -74,7 +74,7 @@ Apesar dos cursos se basearem em vídeos, a escolha de tipografia nas plataforma
 ##### ICONOGRAFIA
 A escolha de bons elementos iconográficos, que sejam universais e legiveis, auxilia na identificação de conteúdos e elementos nas páginas tanto da vitrine quanto no Ava;
 
-### DESENVOLVIMENTO
+### **DESENVOLVIMENTO**
 O tema "Vitrine Mooc" foi pensado para ser de fácil customização e inserção de conteúdo e será composdto por apenas um modelo/template de página, a index, e nela serão adcionados, via painel administrativo, os blocos de conteúdo, podem ser inseridos em qualquer posição ou ordem da página.
 
 #### ESTRUTURAÇÃO DO TEMA WORDPRESS
