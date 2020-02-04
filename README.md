@@ -87,14 +87,14 @@ A escolha de bons elementos iconográficos, que sejam universais e legiveis, aux
 ### DESENVOLVIMENTO
 O tema "Vitrine Mooc" foi pensado para ser de fácil customização e inserção de conteúdo e será composdto por apenas um modelo/template de página, a index, e nela serão adcionados, via painel administrativo, os blocos de conteúdo, podem ser inseridos em qualquer posição ou ordem da página.
 
-#### Widgets:**
-##### Banner
+#### WIDGETS
+##### BANNER
 
 Agilizar a inserção de imagens e legendas; 
 - Escolher imagem da web(url) ou do computador;
 - Legenda com 2 opções de formatação.
 
-##### Cursos
+##### CURSOS
 
 Criar uma listagem de cursos e filtros por taxonomias;
 - Inserir thumbnail;
@@ -106,11 +106,11 @@ Criar uma listagem de cursos e filtros por taxonomias;
 
 Possibilitar uma fácil inserção de perguntas frequentes e suas respostas;
 
-##### Como funciona
+##### COMO FUNCIONA
 
 Inserção de informações relevantes sobre a plataforma;
 
-##### Ferramentas
+##### FERRAMENTAS
 
 Mostrar as ferramentas disponíveis para a realização dos cursos;
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
