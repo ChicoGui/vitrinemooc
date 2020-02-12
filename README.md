@@ -14,8 +14,6 @@ Para dar início ao projeto optou-se por lançar um MVP como canal de acesso par
 
 **Tecnologias aplicadas:** Bootstrap, JavaScript, PHP.
 
-![Alt ou título da imagem](/vitrine_small.png)
-
 ### **INTEGRAÇÃO MOODLE-WORDPRESS**
 Após o lançamento da Vitrine deu-se início ao processo de integração do LMS(Learning Management System) Moodle, plataforma dos ambientes virtuais de aprendizagem, com o CMS (content management system) Wordpress, plataforma para publicação de conteúdo.
 
