@@ -65,53 +65,53 @@ Para a categorização do custom post type *"Cursos"* incialmente escolheu-se 3 
 
 ###### WIDGETS ou SESSÕES DE CONTEÚDO
 1. BANNER
-Agilizar a inserção de imagens de destaque e legendas.
+	Agilizar a inserção de imagens de destaque e legendas.
 
-Serão dois tipos de banner:
-- banner com contadores(matriculas, horas, etc);
-- banner estático;
+	Serão dois tipos de banner:
+	- banner com contadores(matriculas, horas, etc);
+	- banner estático;
 
-Ambos contarão com os seguintes campos:
-- Escolher imagem da web(url) ou do computador;
-- Legenda com 2 opções de formatação;
+	Ambos contarão com os seguintes campos:
+	- Escolher imagem da web(url) ou do computador;
+	- Legenda com 2 opções de formatação;
 
 2. CURSOS
-Criar uma listagem de cursos e filtros por taxonomias.
-- Inserir thumbnail;
-- Nome;
-- Descrição;
-- Url do curso;
-- definir taxonomia(s);
+	Criar uma listagem de cursos e filtros por taxonomias.
+	- Inserir thumbnail;
+	- Nome;
+	- Descrição;
+	- Url do curso;
+	- definir taxonomia(s);
 
 3.  COMO FUNCIONA
-Inserção de informações relevantes sobre a plataforma.
-- Icone;
-- Nome;
-- Descrição;
-- Link;
+	Inserção de informações relevantes sobre a plataforma.
+	- Icone;
+	- Nome;
+	- Descrição;
+	- Link;
 
 4.  FERRAMENTAS
-Mostrar as ferramentas disponíveis para a realização dos cursos.
-- Icone;
-- Nome;
-- Descrição;
+	Mostrar as ferramentas disponíveis para a realização dos cursos.
+	- Icone;
+	- Nome;
+	- Descrição;
 
 5. ÁREA DO ESTUDANTE
-Sessão destinada a criação de contas ou login do usuário.
-- Primeira Vez
-	- texto;
-	- botão para criar conta;
-- Login
-	- Texto;
-	- Nome do usuário
-	- Senha;
-	- Link para "esqueceu usuário ou senha?";
+	Sessão destinada a criação de contas ou login do usuário.
+	- Primeira Vez
+		- texto;
+		- botão para criar conta;
+	- Login
+		- Texto;
+		- Nome do usuário
+		- Senha;
+		- Link para "esqueceu usuário ou senha?";
 
 
 6. F.A.Q
-Possibilitar uma fácil inserção de perguntas frequentes e suas respostas.
-- Título pergunta;
-- Resposta;
+	Possibilitar uma fácil inserção de perguntas frequentes e suas respostas.
+	- Título pergunta;
+	- Resposta;
 
 #### IDENTIDADE VISUAL
 Etapa responsável pela camada visual do projeto. Preocupou-se em manter um padrão visual na vitrine e as salas de aula do Moodle.
