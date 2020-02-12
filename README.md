@@ -63,6 +63,56 @@ Para a categorização do custom post type *"Cursos"* incialmente escolheu-se 3 
 - Ciências e Matemática;
 - Computação;
 
+###### WIDGETS ou SESSÕES DE CONTEÚDO
+1. BANNER
+Agilizar a inserção de imagens de destaque e legendas.
+
+Serão dois tipos de banner:
+- banner com contadores(matriculas, horas, etc);
+- banner estático;
+
+Ambos contarão com os seguintes campos:
+- Escolher imagem da web(url) ou do computador;
+- Legenda com 2 opções de formatação;
+
+2. CURSOS
+Criar uma listagem de cursos e filtros por taxonomias.
+- Inserir thumbnail;
+- Nome;
+- Descrição;
+- Url do curso;
+- definir taxonomia(s);
+
+3.  COMO FUNCIONA
+Inserção de informações relevantes sobre a plataforma.
+- Icone;
+- Nome;
+- Descrição;
+- Link;
+
+4.  FERRAMENTAS
+Mostrar as ferramentas disponíveis para a realização dos cursos.
+- Icone;
+- Nome;
+- Descrição;
+
+5. ÁREA DO ESTUDANTE
+Sessão destinada a criação de contas ou login do usuário.
+- Primeira Vez
+	- texto;
+	- botão para criar conta;
+- Login
+	- Texto;
+	- Nome do usuário
+	- Senha;
+	- Link para "esqueceu usuário ou senha?";
+
+
+6. F.A.Q
+Possibilitar uma fácil inserção de perguntas frequentes e suas respostas.
+- Título pergunta;
+- Resposta;
+
 #### IDENTIDADE VISUAL
 Etapa responsável pela camada visual do projeto. Preocupou-se em manter um padrão visual na vitrine e as salas de aula do Moodle.
 
@@ -86,57 +136,9 @@ Inicialmentente essas são os arquivos do tema:
 
 O tema da virtine de cursos abertos foi pensado para ser de fácil customização e inserção de conteúdo. Será composto por apenas um modelo/template de página, a index, e nela serão adcionados, via painel administrativo, os blocos de conteúdo, **widgets**, podem ser inseridos em qualquer posição ou ordem de exibição na tela. 
 
-Para proporcionar a construção deuma página responsiva e modular inicialmente optou-se por utilizar o plugin [SiteOrigin page Builder](https://siteorigin.com/page-builder/), pois com ele podemos inserir, posicionar e dimensionar os elementos na página sem que ela deixe de ser responsiva.
-
-#### WIDGETS ou SESSÕES DE CONTEÚDO
-##### BANNER
-Agilizar a inserção de imagens de destaque e legendas.
-
-Serão dois tipos de banner:
-- banner com contadores(matriculas, horas, etc);
-- banner estático;
-
-Ambos contarão com os seguintes campos:
-- Escolher imagem da web(url) ou do computador;
-- Legenda com 2 opções de formatação;
-
-##### CURSOS
-Criar uma listagem de cursos e filtros por taxonomias.
-- Inserir thumbnail;
-- Nome;
-- Descrição;
-- Url do curso;
-- definir taxonomia(s);
-
-##### COMO FUNCIONA
-Inserção de informações relevantes sobre a plataforma.
-- Icone;
-- Nome;
-- Descrição;
-- Link;
-
-##### FERRAMENTAS
-Mostrar as ferramentas disponíveis para a realização dos cursos.
-- Icone;
-- Nome;
-- Descrição;
-
-##### ÁREA DO ESTUDANTE
-Sessão destinada a criação de contas ou login do usuário.
-- Primeira Vez
-	- texto;
-	- botão para criar conta;
-- Login
-	- Texto;
-	- Nome do usuário
-	- Senha;
-	- Link para "esqueceu usuário ou senha?";
+Para proporcionar a construção de uma página responsiva e modular inicialmente optou-se por utilizar o plugin [SiteOrigin page Builder](https://siteorigin.com/page-builder/), pois com ele podemos inserir, posicionar e dimensionar os elementos na página sem que ela deixe de ser responsiva.
 
 
-##### F.A.Q
-Possibilitar uma fácil inserção de perguntas frequentes e suas respostas.
-- Título pergunta;
-- Resposta;
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
