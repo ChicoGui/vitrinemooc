@@ -64,7 +64,7 @@ Para a categorização do custom post type *"Cursos"* incialmente escolheu-se 3 
 - Computação;
 
 ###### WIDGETS ou SESSÕES DE CONTEÚDO
-1. **BANNER**
+1. **Banner**
 
 	Agilizar a inserção de imagens de destaque e legendas.
 
@@ -76,7 +76,7 @@ Para a categorização do custom post type *"Cursos"* incialmente escolheu-se 3 
 	- Escolher imagem da web(url) ou do computador;
 	- Legenda com 2 opções de formatação;
 
-2. **CURSOS**
+2. **Cursos**
 
 	Criar uma listagem de cursos e filtros por taxonomias.
 	- Inserir thumbnail;
@@ -85,7 +85,7 @@ Para a categorização do custom post type *"Cursos"* incialmente escolheu-se 3 
 	- Url do curso;
 	- definir taxonomia(s);
 
-3. **COMO FUNCIONA**
+3. **Como FuncionaA**
 
 	Inserção de informações relevantes sobre a plataforma.
 	- Icone;
@@ -93,14 +93,14 @@ Para a categorização do custom post type *"Cursos"* incialmente escolheu-se 3 
 	- Descrição;
 	- Link;
 
-4.  **FERRAMENTAS**
+4.  **Ferramentas**
 
 	Mostrar as ferramentas disponíveis para a realização dos cursos.
 	- Icone;
 	- Nome;
 	- Descrição;
 
-5. **ÁREA DO ESTUDANTE**
+5. **Área do Estudante**
 
 	Sessão destinada a criação de contas ou login do usuário.
 	- Primeira Vez
