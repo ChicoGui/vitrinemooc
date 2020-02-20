@@ -48,20 +48,8 @@ Definir uma estrutura de como as informações devam ser acessadas, apresentadas
 ##### TIPOS DE CONTEÚDO
 O WordPress já disponibiliza alguns tipos padrões de conteúdo, mas para ampliar a subdivisão e suas relações, a criação de custom post types facilita a administração de conteúdo e o design de front-end.
 
-Inicialmente foram criados 4 Custom Post Types: 
-- Cursos;
-- Como Funciona;
-- Ferramentas;
-- Área do estudante;
+Inicialmente foram criados o seguinte Custom Post Types: 
 - F.A.Q;	
-
-##### ORGANIZAÇÃO DE CONTEÚDO
-Assim como podemos criar tipos de conteúdo personalizados, podemos criar taxanomias personalizadas e relacionarmos com tipos de conteúdo específicos, aumentando assim a organização do conteúdo.
-
-Para a categorização do custom post type *"Cursos"* incialmente escolheu-se 3 taxonomias iniciais, sendo elas:
-- Tecnolgias Educacionais;
-- Ciências e Matemática;
-- Computação;
 
 ###### WIDGETS ou SESSÕES DE CONTEÚDO
 1. **Banner**
