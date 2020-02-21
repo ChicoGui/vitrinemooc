@@ -218,7 +218,7 @@ function cursos_post_type() {
         'label'                 => __( 'cursos', 'text_domain' ),
         'description'           => __( 'cursos', 'text_domain' ),
         'labels'                => $labels,
-        'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields'),
+        'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields', 'excerpt'),
         'hierarchical'          => false,
         'public'                => true,
         'show_ui'               => true,
@@ -238,43 +238,6 @@ function cursos_post_type() {
 add_action( 'init', 'cursos_post_type', 0 );
 
 
-//code start
-add_action( 'add_meta_boxes', 'cd_meta_box_add' );
-function cd_meta_box_add() {
-//give name of your input field
-    add_meta_box( 'my-meta-box-id', 'Link para sala moodle', 'cd_meta_box_cb', 'cursos_post_type', 'normal', 'high' );
-}
-function cd_meta_box_cb( $post ) {
-    $values = get_post_custom( $post->ID );
-    $text = isset( $values['my_meta_box_text'] ) ? esc_attr( $values['my_meta_box_text'][0] ) : '';
-    wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
-    ?>
-    <p>
-
-        <label for="my_meta_box_text">Title</label>
-        <input type="text" name="my_meta_box_text" maxlength="55" id="my_meta_box_text" value="<?php echo $text; ?>" style="width: 30%;" />
-    </p>
-<?php
-}
-add_action( 'save_post', 'cd_meta_box_save' );
-function cd_meta_box_save( $post_id ) {
-    // Bail if we're doing an auto save
-    if( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) return;
-    // if our nonce isn't there, or we can't verify it, bail
-    if( !isset( $_POST['meta_box_nonce'] ) || !wp_verify_nonce( $_POST['meta_box_nonce'], 'my_meta_box_nonce' ) ) return;
-    // if our current user can't edit this post, bail
-    if( !current_user_can( 'edit_post', $post_id ) ) return;
-    // now we can actually save the data
-    $allowed = array(
-        'a' => array( // on allow a tags
-            'href' => array() // and those anchords can only have href attribute
-        )
-    );
-    // Probably a good idea to make sure your data is set
-    if( isset( $_POST['my_meta_box_text'] ) )
-        update_post_meta( $post_id, 'my_meta_box_text', wp_kses( $_POST['my_meta_box_text'], $allowed ) );
-}
-//code end
 
 //--------------------------------------------------------------------
 
@@ -823,6 +786,7 @@ class cgte_cursos_Widget extends WP_Widget {
                     $the_query->the_post();
                       
                     $titulo = get_the_title();
+                    $resumo = get_the_excerpt();
                     echo "<div class='card-curso'>";
 
                     if ( has_post_thumbnail() ) {
@@ -832,6 +796,7 @@ class cgte_cursos_Widget extends WP_Widget {
                     echo"
                     <div class='descricao'>
                         <h6> $titulo</h6>
+                        $resumo
                         <a href='$meta' target='_blank' class='btn2'>Acessar curso</a>
                     </div>
                   </div>"; 
@@ -996,17 +961,16 @@ class cgte_como_funciona_Widget extends WP_Widget {
 
                         <div class="row">';
 
-
-                  }else{
+                    }else{
 
                     echo "<div class='card-howTo'>";
 
-                    if ( has_post_thumbnail() ) {
+                        if ( has_post_thumbnail() ) {
                            the_post_thumbnail('medium', array('class' => 'icone1'));
                         } 
 
-                    echo"<h6> $titulo</h6>
-                    $conteudo
+                        echo"<h6> $titulo</h6>
+                        $conteudo
                     </div>
                   "; 
                   echo "<br>"; 
