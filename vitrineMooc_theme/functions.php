@@ -9,9 +9,10 @@ add_action( 'init', 'register_menuPrincipal' );
 
 add_theme_support( 'post-thumbnails' ); 
 
-/*--------------------------------------------------------------------
+/*----------------------------------------------------------------------------------------
 CRIAÇÃO DE CUSTOM POST TYPES
---------------------------------------------------------------------*/
+----------------------------------------------------------------------------------------*/
+
 // Register Custom Post Type
 function banner_post_type() {
 
@@ -318,7 +319,7 @@ class cgte_Article_Widget extends WP_Widget {
 
 
 
-    //=======> Widget setup
+
 
     function __construct() {
 
@@ -339,12 +340,7 @@ class cgte_Article_Widget extends WP_Widget {
     }
 
 
-
-    //=======> How to display the widget on the screen.
-
     function widget($args, $widgetData) {
-
-        //=======> widget body
 
         echo $before_widget;
 
@@ -409,7 +405,7 @@ echo '</div></div>
 
 
 
-    //Update the widget
+
 
     function update($new_widgetData, $old_widgetData) {
 
@@ -429,7 +425,7 @@ echo '</div></div>
 /*--------------------------------------------------------------------
 CGTE LOGIN WIDGET
 --------------------------------------------------------------------*/
-//========= Custom CGTE Article Widget
+
 
 add_action( 'widgets_init', 'cgte_login_widgets' );
 
@@ -440,14 +436,8 @@ function cgte_login_widgets() {
 }
 
 
-
-//========= Custom CGTE Article Widget Body
-
 class cgte_login_Widget extends WP_Widget {
 
-
-
-    //=======> Widget setup
 
     function __construct() {
 
@@ -468,12 +458,8 @@ class cgte_login_Widget extends WP_Widget {
     }
 
 
-
-    //=======> How to display the widget on the screen.
-
     function widget($args, $widgetData) {
 
-        //=======> widget body
 
         echo $before_widget;
 ?>
@@ -533,7 +519,6 @@ class cgte_login_Widget extends WP_Widget {
 
 
 
-    //Update the widget
 
     function update($new_widgetData, $old_widgetData) {
 
@@ -550,10 +535,10 @@ class cgte_login_Widget extends WP_Widget {
 }
 
 
-/*--------------------------------------------------------------------
+/*----------------------------------------------------------------------------------------
 WIDGET CONTADOR
---------------------------------------------------------------------*/
-//========= Custom CGTE Article Widget
+----------------------------------------------------------------------------------------*/
+
 
 add_action( 'widgets_init', 'cgte_contador_widgets' );
 
@@ -565,7 +550,6 @@ function cgte_contador_widgets() {
 
 
 
-//========= Custom CGTE Article Widget Body
 
 class cgte_contador_Widget extends WP_Widget {
 
@@ -593,11 +577,8 @@ class cgte_contador_Widget extends WP_Widget {
 
 
 
-    //=======> How to display the widget on the screen.
-
     function widget($args, $widgetData) {
 
-        //=======> widget body
 
         echo $before_widget;
 
@@ -645,7 +626,7 @@ curl_close($curlHandler);
 
 
 
-    //Update the widget
+
 
     function update($new_widgetData, $old_widgetData) {
 
@@ -661,10 +642,10 @@ curl_close($curlHandler);
 
 }
 
-/*--------------------------------------------------------------------
+/*-----------------------------------------------------------------------------------
 CGTE CURSOS WIDGET
---------------------------------------------------------------------*/
-//========= Custom CGTE Article Widget
+-----------------------------------------------------------------------------------*/
+
 
 add_action( 'widgets_init', 'cgte_cursos_widgets' );
 
@@ -828,14 +809,7 @@ class cgte_cursos_Widget extends WP_Widget {
                 print_r($lista_post_curso);
                 echo "<BR>";
                 print_r($lista_moodle_curso);
-                $testar = in_array($lista_post_curso, $cursos);
-
-                
-
-                
-            
-            
-
+                $testar = in_array($lista_post_curso, $cursos);           
 
 		curl_close($curlHandler);*/
 		?>
@@ -871,9 +845,9 @@ class cgte_cursos_Widget extends WP_Widget {
 
 }
 
-/*--------------------------------------------------------------------
+/*-----------------------------------------------------------------------------------
 CGTE como funciona WIDGET
---------------------------------------------------------------------*/
+-----------------------------------------------------------------------------------*/
 //========= Custom CGTE Article Widget
 
 add_action( 'widgets_init', 'cgte_como_funciona_widgets' );
@@ -1019,9 +993,9 @@ class cgte_como_funciona_Widget extends WP_Widget {
 }
 
 
-/*--------------------------------------------------------------------
+/*-----------------------------------------------------------------------------------
 CGTE FERRAMENTAS WIDGET
---------------------------------------------------------------------*/
+-----------------------------------------------------------------------------------*/
 //========= Custom CGTE Article Widget
 
 add_action( 'widgets_init', 'cgte_ferramentas_widgets' );
@@ -1034,13 +1008,9 @@ function cgte_ferramentas_widgets() {
 
 
 
-//========= Custom CGTE Article Widget Body
 
 class cgte_ferramentas_Widget extends WP_Widget {
 
-
-
-    //=======> Widget setup
 
     function __construct() {
 
@@ -1062,11 +1032,9 @@ class cgte_ferramentas_Widget extends WP_Widget {
 
 
 
-    //=======> How to display the widget on the screen.
-
     function widget($args, $widgetData) {
 
-        //=======> widget body
+
 
         echo $before_widget;
 ?>
@@ -1083,21 +1051,16 @@ class cgte_ferramentas_Widget extends WP_Widget {
         $args = array(
             'post_type' => 'classTools_post_type'
             ); 
-            // the query
             $the_query = new WP_Query( $args );
-
-        
-                       
-             
-            if ( $the_query->have_posts() ) {
-                
+    
+            if ( $the_query->have_posts() ) {             
 
                 while ( $the_query->have_posts() ) {
                     $the_query->the_post();
                     $conteudo = get_the_content();
                       
                     $titulo = get_the_title();
-                    echo "<div class='card-howTo'>";
+                    echo "<div class='card-tools'>";
 
                     if ( has_post_thumbnail() ) {
                            the_post_thumbnail('medium', array('class' => 'icone1'));
@@ -1107,22 +1070,16 @@ class cgte_ferramentas_Widget extends WP_Widget {
                     $conteudo
                     </div>
                   "; 
-                  echo "<br>"; 
 
+
+
+                  echo "<br>";                   
                     
-                    
-             
-                 
-             
-        
                 }
             }
 
-
                 wp_reset_postdata();
             ?>
-
-       
 
   </div>
   </div>
@@ -1134,19 +1091,89 @@ class cgte_ferramentas_Widget extends WP_Widget {
     }
 
 
-
-    //Update the widget
-
     function update($new_widgetData, $old_widgetData) {
 
 
     }
 
 
-
     function form($widgetData) {
 
 
     }
+
+}
+
+function hstngr_register_widget() {
+register_widget( 'hstngr_widget' );
+}
+
+add_action( 'widgets_init', 'hstngr_register_widget' );
+
+class hstngr_widget extends WP_Widget {
+
+function __construct() {
+parent::__construct(
+// widget ID
+'hstngr_widget',
+// widget name
+__('Hostinger Sample Widget', ' hstngr_widget_domain'),
+// widget description
+array( 'description' => __( 'Hostinger Widget Tutorial', 'hstngr_widget_domain' ), )
+);
+}
+public function widget( $args, $instance ) {
+$titulo = apply_filters( 'widget_title', $instance['titulo'] );
+$sub_titulo_um = apply_filters( 'widget_sub_title', $instance['sub_titulo_um'] );
+$sub_titulo_dois = apply_filters( 'widget_sub_title', $instance['sub_titulo_dois'] );
+$imagem = apply_filters( 'widget_image', $instance['imagem'] );
+
+echo $args['before_widget'];
+//if title is present
+
+echo "<h3 class='hero-branco'>" ;
+    echo $titulom;
+echo"</h3>";
+echo "<h3 class='hero-branco'>" ;
+    echo $sub_titulo_um;
+echo"</h3>";
+echo "<h3 class='hero-branco'>" ;
+    echo $sub_titulo_dois;
+echo"</h3>";
+
+
+//output
+
+echo $args['after_widget'];
+}
+public function form( $instance ) {
+if ( isset( $instance[ 'titulo'], $instance['sub_titulo_um'], $instance['sub_titulo_dois'], $instance['imagem' ] ) )
+$titulo = $instance[ 'titulo' ];
+else
+$titulo = __( 'Default Title', 'hstngr_widget_domain' );
+?>
+
+<label for="<?php echo $this->get_field_id( 'titulo' ); ?>"><?php _e( 'titulo:' ); ?></label>
+<input class="widefat" id="<?php echo $this->get_field_id( 'titulo' ); ?>" name="<?php echo $this->get_field_name( 'titulo' ); ?>" type="text" value="<?php echo esc_attr( $titulo ); ?>" />
+
+<label for="<?php echo $this->get_field_id( 'sub_titulo_um' ); ?>"><?php _e( 'sub Title:' ); ?></label>
+<input class="widefat" id="<?php echo $this->get_field_id( 'sub_titulo_um' ); ?>" name="<?php echo $this->get_field_name( 'sub_titulo_um' ); ?>" type="text" value="<?php echo esc_attr( $sub_titulo_um ); ?>" />
+
+<label for="<?php echo $this->get_field_id( 'sub_titulo_dois' ); ?>"><?php _e( 'sub Title:' ); ?></label>
+<input class="widefat" id="<?php echo $this->get_field_id( 'sub_titulo_dois' ); ?>" name="<?php echo $this->get_field_name( 'sub_titulo_dois' ); ?>" type="text" value="<?php echo esc_attr( $sub_titulo_dois ); ?>" />
+
+
+<label for="<?php echo $this->get_field_id( 'imagem-hero' ); ?>">imagem</label>
+<input class="widefat" id="<?php echo $this->get_field_id( 'imagem' ); ?>" name="<?php echo $this->get_field_name( 'imagem' ); ?>" type="file" value="<?php echo esc_attr( $imagem ); ?>" />
+
+<?php
+}
+public function update( $new_instance, $old_instance ) {
+    $instance = array();
+    $instance['titulo'] = ( ! empty( $new_instance['titulo'] ) ) ? strip_tags( $new_instance['titulo'] ) : '';
+    $instance['sub_titulo_um'] = ( ! empty( $new_instance['sub_titulo_um'] ) ) ? strip_tags( $new_instance['sub_titulo_um'] ) : '';
+    $instance['sub_titulo_dois'] = ( ! empty( $new_instance['sub_titulo_dois'] ) ) ? strip_tags( $new_instance['sub_titulo_dois'] ) : '';
+    return $instance;
+}
 
 }

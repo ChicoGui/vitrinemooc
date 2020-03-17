@@ -1,51 +1,49 @@
 <?php wp_footer(); ?>
 <footer>
-  <div class="container">
-    <div class="row">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 site-map">
+				<h5 class="titulo-rodape"> Cursos Abertos</h5>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">
+						<a href="https://mooc.cefor.ifes.edu.br/moodle/mod/simplecertificate/verify.php">Validar Certificado</a>
+					</li>
+					<!--li class="list-group-item"><a href="">Perguntas Frequentes</a></li-->
+		          	<li class="list-group-item">
+		          		<a href="https://proen.ifes.edu.br/images/stories/Instru%C3%A7%C3%A3o_Normativa_n%C2%BA_02-2019_Cursos_MOOC.pdf">Termos de Uso</a>
+		          	</li>
+					<li class="list-group-item">
+						<a href="https://mooc.cefor.ifes.edu.br/suporte">Suporte</a>
+					</li>
+				</ul>
+			</div>
 
-      <div class="col-md-4 site-map">
-        <h5 class="titulo-rodape"> Cursos Abertos</h5>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="https://mooc.cefor.ifes.edu.br/moodle/mod/simplecertificate/verify.php">Validar Certificado</a></li>
-          <!--li class="list-group-item"><a href="">Perguntas Frequentes</a></li-->
-          <li class="list-group-item"><a href="https://proen.ifes.edu.br/images/stories/Instru%C3%A7%C3%A3o_Normativa_n%C2%BA_02-2019_Cursos_MOOC.pdf">Termos de Uso</a></li>
-          <li class="list-group-item"><a href="https://mooc.cefor.ifes.edu.br/suporte">Suporte</a></li>
+			<div class="col-md-4 site-map">
+	        	<h5 class="titulo-rodape">Institucional</h5>
+		        <ul class="list-group list-group-flush">
+		          <li class="list-group-item"><a href="http://ifes.edu.br" target="new">O Ifes</a></li>
+		          <li class="list-group-item"><a href="http://cefor.ifes.edu.br" target="new">O Cefor</a></li>
+		          <li class="list-group-item"><a href="http://conhecimento.cefor.ifes.edu.br" target="new">Base de Conhecimento</a></li>
+		        </ul>
+			</div>
 
-        </ul>
-      </div>
-
-      <div class="col-md-4 site-map">
-        <h5 class="titulo-rodape">Institucional</h5>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="http://ifes.edu.br" target="new">O Ifes</a></li>
-          <li class="list-group-item"><a href="http://cefor.ifes.edu.br" target="new">O Cefor</a></li>
-          <li class="list-group-item"><a href="http://conhecimento.cefor.ifes.edu.br" target="new">Base de Conhecimento</a></li>
-        </ul>
-      </div>
-
-      <div class="col-md-4">
-        
-        <a class="logo-cefor-footer" href="http://cefor.ifes.edu.br"><img src="images/logo_ifes_cefor.svg" alt="Cefor ifes"> </a>
-        
-      </div>
-
-    </div>
-
-  </div>
-
-
-
+			<div class="col-md-4">        
+				<a class="logo-cefor-footer" href="http://cefor.ifes.edu.br">
+	        		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_ifes_cefor.svg" alt="Cefor ifes"> 
+				</a>        
+			</div>
+		</div>
+	</div>
 </footer>
  
     
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
    
     <script>
 		// Select all links with hashes
@@ -128,9 +126,5 @@
 	});
 </script>
 
-     
-
-
-
-  </body>
+</body>
 </html>
