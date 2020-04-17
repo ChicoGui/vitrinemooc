@@ -73,7 +73,7 @@ Inicialmente foram criados o seguinte Custom Post Types:
 	- Url do curso;
 	- definir taxonomia(s);
 
-3. **Como FuncionaA**
+3. **Como Funciona**
 
 	Inserção de informações relevantes sobre a plataforma.
 	- Icone;
@@ -129,5 +129,3 @@ Inicialmentente essas são os arquivos do tema:
 - **functions.php:** Arquivo responsável por conter as funcionalidades do tema;
 
 O tema da virtine de cursos abertos foi pensado para ser de fácil customização e inserção de conteúdo. Será composto por apenas um modelo/template de página, a index, e nela serão adcionados, via painel administrativo, os blocos de conteúdo, **widgets**, podem ser inseridos em qualquer posição ou ordem de exibição na tela. 
-
-Para proporcionar a construção de uma página responsiva e modular inicialmente optou-se por utilizar o plugin [SiteOrigin page Builder](https://siteorigin.com/page-builder/), pois com ele podemos inserir, posicionar e dimensionar os elementos na página sem que ela deixe de ser responsiva.
