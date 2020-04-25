@@ -13,5 +13,12 @@ Para dar início ao projeto optou-se por lançar um MVP como canal de acesso par
 
 [Acessar Cursos Abertos ifes](http://mooc.cefor.ifes.edu.br)
 
+**ano:** 2019
+**status:** em desenvolvimento
+
+**UX Design e Desenvolvimento front/back-end**
+
+**Tecnologias aplicadas:** Bootstrap, JavaScript, PHP/Wordpress.
+
 
 
